@@ -25,6 +25,13 @@ The Austin Animal Center is the largest no-kill animal shelter in the United Sta
 ### Questions to be answered
 * Average age of analimal upon intake by animal type
 * Age distribution by animal type - Box Plot
+* Average age by intake condition
+* Age distribution by intake condition
+* Intake count by weekdaays
+* Intke count by months
+* Intake count (Stary Vs Other types)
+* Outcome ( adoption vs other)
+* Outcome others (Died, Transfered, Euthanasia, Return)
 
 ### Dashboard
 
