@@ -1,0 +1,101 @@
+animal_id_outcome,outcome_subtype,outcome_type,age_upon_outcome_(years),age_upon_outcome_age_group,outcome_monthyear,age_upon_intake,animal_id_intake,animal_type,breed,color,intake_condition,age_upon_intake_(years),intake_year,time_in_shelter_days
+A637834,Partner,Transfer,6.0,"(5.0, 7.5]",2015-09,6 years,A637834,Dog,Miniature Schnauzer/Miniature Poodle,Gray/Black,Normal,6.0,2015,2.0097222222222224
+A699807,SCRP,Transfer,2.0,"(-0.025, 2.5]",2015-04,2 years,A699807,Cat,Domestic Shorthair Mix,Blue,Normal,2.0,2015,0.7298611111111112
+A720887,Partner,Transfer,2.0,"(-0.025, 2.5]",2016-02,2 years,A720887,Dog,Chow Chow Mix,Black,Normal,2.0,2016,3.7902777777777783
+A619134,Aggressive,Euthanasia,6.0,"(5.0, 7.5]",2016-03,6 years,A619134,Dog,Pit Bull Mix,Brown Brindle,Normal,6.0,2016,2.875694444444445
+A677706,Partner,Transfer,0.07671232876712329,"(-0.025, 2.5]",2014-04,4 weeks,A677706,Cat,Domestic Shorthair Mix,Blue Tabby,Nursing,0.07671232876712329,2014,0.17083333333333334
+A703541,Partner,Transfer,0.1643835616438356,"(-0.025, 2.5]",2015-05,1 month,A703541,Dog,Newfoundland Mix,Black/White,Normal,0.0821917808219178,2015,4.145833333333333
+A702244,SCRP,Transfer,1.0,"(-0.025, 2.5]",2015-05,1 year,A702244,Cat,Domestic Shorthair Mix,Orange Tabby,Normal,1.0,2015,0.7201388888888891
+A694251,Behavior,Euthanasia,2.0,"(-0.025, 2.5]",2015-01,2 years,A694251,Dog,Pit Bull Mix,White/Black,Normal,2.0,2014,11.018055555555556
+A676669,Partner,Transfer,1.0,"(-0.025, 2.5]",2014-05,1 year,A676669,Cat,Domestic Shorthair Mix,White/Gray,Normal,1.0,2014,23.95138888888889
+A744790,Partner,Transfer,1.0,"(-0.025, 2.5]",2017-03,1 year,A744790,Dog,Cairn Terrier Mix,Cream/Tan,Normal,1.0,2017,5.0243055555555545
+A693448,Rabies Risk,Euthanasia,1.0,"(-0.025, 2.5]",2014-12,1 year,A693448,Other,Bat,Black/Brown,Normal,1.0,2014,0.0041666666666666675
+A675107,Partner,Transfer,1.0,"(-0.025, 2.5]",2014-03,1 year,A675107,Cat,Domestic Shorthair Mix,White/Brown Tabby,Normal,1.0,2014,4.088888888888889
+A713192,Offsite,Adoption,0.1643835616438356,"(-0.025, 2.5]",2015-12,3 weeks,A713192,Cat,Domestic Shorthair Mix,Brown Tabby,Nursing,0.05753424657534247,2015,64.90416666666667
+A689602,Foster,Adoption,0.0821917808219178,"(-0.025, 2.5]",2014-11,1 week,A689602,Dog,Miniature Pinscher/Chihuahua Shorthair,Tan/Brown,Normal,0.019178082191780826,2014,48.0576388888889
+A755487,Partner,Transfer,0.0821917808219178,"(-0.025, 2.5]",2017-08,1 month,A755487,Cat,Domestic Shorthair Mix,Black/White,Normal,0.0821917808219178,2017,0.5645833333333333
+A704722,Partner,Transfer,0.019178082191780826,"(-0.025, 2.5]",2015-06,1 weeks,A704722,Cat,Domestic Shorthair Mix,Orange Tabby/White,Sick,0.019178082191780826,2015,0.17083333333333334
+A758458,Suffering,Euthanasia,8.0,"(7.5, 10.0]",2017-09,8 years,A758458,Cat,Domestic Shorthair Mix,Brown Tabby/White,Sick,8.0,2017,1.2076388888888892
+A664845,Partner,Transfer,0.9041095890410958,"(-0.025, 2.5]",2013-12,9 months,A664845,Dog,Boxer/Pit Bull,White,Normal,0.7397260273972602,2013,52.719444444444434
+A708205,Partner,Transfer,5.0,"(2.5, 5.0]",2015-08,5 years,A708205,Cat,Domestic Shorthair Mix,Blue,Feral,5.0,2015,12.240277777777774
+A679459,Behavior,Euthanasia,3.0,"(2.5, 5.0]",2014-06,3 years,A679459,Dog,Border Collie Mix,Black/White,Normal,3.0,2014,3.025694444444445
+A710043,Partner,Transfer,0.05753424657534247,"(-0.025, 2.5]",2015-08,3 weeks,A710043,Cat,Domestic Shorthair Mix,Orange Tabby,Normal,0.05753424657534247,2015,0.12708333333333333
+A764223,Rabies Risk,Euthanasia,1.0,"(-0.025, 2.5]",2017-12,1 year,A764223,Other,Raccoon,Gray/Black,Sick,1.0,2017,0.02013888888888889
+A743554,Partner,Transfer,3.0,"(2.5, 5.0]",2017-11,3 years,A743554,Dog,Pit Bull Mix,White/Tan,Normal,3.0,2017,0.11041666666666666
+A728451,Partner,Transfer,0.0,"(-0.025, 2.5]",2016-06,0 years,A728451,Dog,Chow Chow Mix,Black/White,Nursing,0.0,2016,3.2340277777777784
+A687694,Partner,Transfer,1.0,"(-0.025, 2.5]",2014-09,1 year,A687694,Dog,Chinese Sharpei Mix,Fawn,Normal,1.0,2014,12.95
+A764890,Foster,Adoption,0.0821917808219178,"(-0.025, 2.5]",2018-02,5 weeks,A764890,Dog,Golden Retriever/Labrador Retriever,White,Nursing,0.0958904109589041,2018,24.21805555555556
+A733386,Partner,Transfer,1.0,"(-0.025, 2.5]",2016-09,1 year,A733386,Dog,Yorkshire Terrier Mix,Black,Normal,1.0,2016,15.596527777777776
+A764832,Partner,Transfer,0.6575342465753424,"(-0.025, 2.5]",2018-01,7 months,A764832,Dog,Shih Tzu,Brown Brindle,Normal,0.5753424657534246,2018,4.068055555555556
+A766350,Snr,Transfer,1.0,"(-0.025, 2.5]",2018-02,1 year,A766350,Cat,Domestic Shorthair Mix,Gray,Normal,1.0,2018,5.219444444444443
+A675448,Rabies Risk,Euthanasia,1.0,"(-0.025, 2.5]",2014-03,1 year,A675448,Other,Bat Mix,Brown,Normal,1.0,2014,0.0125
+A725406,Foster,Adoption,0.2465753424657534,"(-0.025, 2.5]",2016-07,3 weeks,A725406,Cat,Domestic Longhair Mix,Brown Tabby,Normal,0.05753424657534247,2016,72.02777777777777
+A682195,Rabies Risk,Euthanasia,1.0,"(-0.025, 2.5]",2014-06,1 year,A682195,Other,Raccoon Mix,Black/White,Sick,1.0,2014,0.014583333333333334
+A727322,Foster,Adoption,0.1643835616438356,"(-0.025, 2.5]",2016-08,2 weeks,A727322,Dog,Pit Bull,White/Blue,Nursing,0.03835616438356165,2016,73.14722222222224
+A670544,SCRP,Transfer,1.0,"(-0.025, 2.5]",2014-01,1 year,A670544,Cat,Domestic Shorthair Mix,Torbie,Normal,1.0,2014,1.8625
+A703664,Suffering,Euthanasia,2.0,"(-0.025, 2.5]",2015-05,2 years,A703664,Cat,Domestic Shorthair Mix,Brown Tabby,Injured,2.0,2015,0.02291666666666667
+A759225,Partner,Transfer,12.0,"(10.0, 12.5]",2017-10,12 years,A759225,Dog,Labrador Retriever Mix,Brown/Tan,Aged,12.0,2017,5.94513888888889
+A727601,Partner,Transfer,2.0,"(-0.025, 2.5]",2016-06,2 years,A727601,Cat,Domestic Medium Hair Mix,Orange Tabby,Normal,2.0,2016,14.938194444444445
+A707329,SCRP,Transfer,0.2465753424657534,"(-0.025, 2.5]",2015-07,2 months,A707329,Cat,Domestic Shorthair,Orange Tabby/White,Normal,0.1643835616438356,2015,0.8486111111111111
+A693739,Partner,Transfer,0.2465753424657534,"(-0.025, 2.5]",2014-12,3 months,A693739,Cat,Domestic Shorthair Mix,Black/White,Normal,0.2465753424657534,2014,5.804166666666667
+A761763,Foster,Adoption,0.1643835616438356,"(-0.025, 2.5]",2018-01,1 week,A761763,Dog,Cairn Terrier Mix,Tan,Normal,0.019178082191780826,2017,59.33402777777778
+A742640,Court/Investigation,Euthanasia,0.9041095890410958,"(-0.025, 2.5]",2017-06,8 months,A742640,Dog,Boxer Mix,Brown/Black,Normal,0.6575342465753424,2017,69.86041666666667
+A689094,Partner,Transfer,0.05753424657534247,"(-0.025, 2.5]",2014-09,3 weeks,A689094,Cat,Domestic Shorthair Mix,Orange Tabby,Normal,0.05753424657534247,2014,0.03958333333333333
+A725544,Partner,Transfer,1.0,"(-0.025, 2.5]",2016-05,1 year,A725544,Dog,Catahoula Mix,Red,Normal,1.0,2016,23.12638888888889
+A711809,Partner,Transfer,0.019178082191780826,"(-0.025, 2.5]",2015-09,1 weeks,A711809,Cat,Domestic Shorthair Mix,Black,Normal,0.019178082191780826,2015,0.1826388888888889
+A544848,Partner,Transfer,8.0,"(7.5, 10.0]",2016-08,8 years,A544848,Dog,Labrador Retriever/Chow Chow,Red/White,Injured,8.0,2016,10.216666666666667
+A762560,Partner,Transfer,0.4931506849315068,"(-0.025, 2.5]",2017-11,6 months,A762560,Other,Gerbil Mix,Tan,Normal,0.4931506849315068,2017,1.00625
+A677596,At Vet,Died,0.0821917808219178,"(-0.025, 2.5]",2014-05,4 weeks,A677596,Cat,Domestic Shorthair Mix,Cream Tabby,Normal,0.07671232876712329,2014,26.0875
+A724742,Suffering,Euthanasia,0.03835616438356165,"(-0.025, 2.5]",2016-04,2 weeks,A724742,Cat,Domestic Shorthair Mix,Brown Tabby,Normal,0.03835616438356165,2016,0.10694444444444444
+A755681,Rabies Risk,Euthanasia,4.0,"(2.5, 5.0]",2017-08,4 years,A755681,Other,Bat Mix,Brown,Normal,4.0,2017,0.052777777777777785
+A547015,Partner,Transfer,6.0,"(5.0, 7.5]",2015-02,6 years,A547015,Dog,Pekingese,Gold,Normal,6.0,2015,12.07152777777778
+A741855,Foster,Adoption,10.0,"(7.5, 10.0]",2017-02,10 years,A741855,Dog,Chihuahua Shorthair Mix,White/Chocolate,Normal,10.0,2017,31.956944444444453
+A747024,Partner,Transfer,0.019178082191780826,"(-0.025, 2.5]",2017-04,1 weeks,A747024,Cat,Domestic Shorthair Mix,Brown Tabby/White,Normal,0.019178082191780826,2017,0.07916666666666666
+A677210,Foster,Adoption,0.1643835616438356,"(-0.025, 2.5]",2014-06,4 weeks,A677210,Cat,Manx Mix,Brown Tabby,Normal,0.07671232876712329,2014,55.11736111111111
+A691259,Suffering,Euthanasia,0.1643835616438356,"(-0.025, 2.5]",2014-11,2 months,A691259,Cat,Domestic Longhair Mix,Black/White,Normal,0.1643835616438356,2014,0.08472222222222223
+A703269,Suffering,Euthanasia,0.2465753424657534,"(-0.025, 2.5]",2015-05,3 months,A703269,Dog,Beagle Mix,Brown,Injured,0.2465753424657534,2015,0.045138888888888895
+A680710,Foster,Adoption,0.5753424657534246,"(-0.025, 2.5]",2014-12,1 month,A680710,Cat,Domestic Medium Hair Mix,Black,Normal,0.0821917808219178,2014,193.99166666666667
+A700233,Partner,Transfer,0.0054794520547945215,"(-0.025, 2.5]",2015-04,2 days,A700233,Dog,Pit Bull Mix,Blue/White,Nursing,0.0054794520547945215,2015,0.14027777777777778
+A737802,SCRP,Transfer,1.0,"(-0.025, 2.5]",2016-11,1 year,A737802,Cat,Domestic Shorthair Mix,Orange Tabby,Normal,1.0,2016,0.7354166666666667
+A706572,Partner,Transfer,0.03835616438356165,"(-0.025, 2.5]",2015-07,2 weeks,A706572,Cat,Domestic Shorthair Mix,Black/White,Normal,0.03835616438356165,2015,2.9305555555555562
+A655183,Partner,Transfer,3.0,"(2.5, 5.0]",2014-01,3 years,A655183,Dog,English Bulldog Mix,White,Normal,3.0,2014,0.052777777777777785
+A734104,SCRP,Transfer,0.2465753424657534,"(-0.025, 2.5]",2016-09,3 months,A734104,Cat,Domestic Medium Hair,Brown Tabby,Normal,0.2465753424657534,2016,0.80625
+A681136,Partner,Transfer,0.019178082191780826,"(-0.025, 2.5]",2014-06,1 weeks,A681136,Cat,Domestic Shorthair Mix,Gray/Black,Nursing,0.019178082191780826,2014,0.10347222222222223
+A692877,Partner,Transfer,2.0,"(-0.025, 2.5]",2014-12,2 years,A692877,Cat,Domestic Shorthair Mix,Cream Tabby/White,Normal,2.0,2014,12.849305555555556
+A682151,Rabies Risk,Euthanasia,2.0,"(-0.025, 2.5]",2014-06,2 years,A682151,Other,Bat,Brown,Sick,2.0,2014,0.4270833333333333
+A725627,Partner,Transfer,0.03835616438356165,"(-0.025, 2.5]",2016-05,2 weeks,A725627,Cat,Domestic Shorthair Mix,Orange Tabby,Injured,0.03835616438356165,2016,1.7166666666666666
+A671061,Foster,Adoption,0.1643835616438356,"(-0.025, 2.5]",2014-03,3 weeks,A671061,Cat,Domestic Medium Hair Mix,Black,Sick,0.05753424657534247,2014,42.94166666666667
+A700273,Partner,Transfer,1.0,"(-0.025, 2.5]",2015-04,1 year,A700273,Other,Rabbit Sh Mix,White/Black,Injured,1.0,2015,0.10486111111111113
+A665220,Partner,Transfer,0.0821917808219178,"(-0.025, 2.5]",2013-10,1 month,A665220,Dog,Australian Cattle Dog Mix,Tricolor,Normal,0.0821917808219178,2013,13.961111111111109
+A746004,Foster,Adoption,0.1643835616438356,"(-0.025, 2.5]",2017-06,3 days,A746004,Dog,Jack Russell Terrier Mix,White/Brown,Normal,0.00821917808219178,2017,70.10208333333334
+A749307,Partner,Transfer,0.03835616438356165,"(-0.025, 2.5]",2017-05,2 weeks,A749307,Cat,Domestic Shorthair Mix,Orange/White,Normal,0.03835616438356165,2017,0.10347222222222223
+A726078,Rabies Risk,Euthanasia,1.0,"(-0.025, 2.5]",2016-05,1 year,A726078,Other,Bat Mix,Brown,Normal,1.0,2016,9.691666666666666
+A716119,SCRP,Transfer,1.0,"(-0.025, 2.5]",2015-11,1 year,A716119,Cat,Domestic Shorthair Mix,Black,Normal,1.0,2015,4.132638888888889
+A759847,Snr,Transfer,2.0,"(-0.025, 2.5]",2017-10,2 years,A759847,Cat,Domestic Shorthair Mix,Brown Tabby,Normal,2.0,2017,5.2340277777777775
+A665848,Partner,Transfer,2.0,"(-0.025, 2.5]",2014-03,2 years,A665848,Dog,Chihuahua Shorthair Mix,Tan,Normal,2.0,2014,4.1819444444444445
+A736737,Foster,Adoption,0.1643835616438356,"(-0.025, 2.5]",2016-11,1 month,A736737,Cat,Domestic Shorthair Mix,Brown Tabby/White,Normal,0.0821917808219178,2016,19.870138888888892
+A758861,Snr,Transfer,0.4931506849315068,"(-0.025, 2.5]",2017-09,6 months,A758861,Cat,Domestic Shorthair Mix,Blue/White,Normal,0.4931506849315068,2017,5.298611111111111
+A664956,Partner,Transfer,0.1643835616438356,"(-0.025, 2.5]",2013-10,1 month,A664956,Dog,Labrador Retriever Mix,Black/White,Normal,0.0821917808219178,2013,3.0729166666666665
+A735715,Partner,Transfer,0.07671232876712329,"(-0.025, 2.5]",2016-09,4 weeks,A735715,Cat,Domestic Shorthair Mix,Brown Tabby,Normal,0.07671232876712329,2016,0.8229166666666666
+A733433,Rabies Risk,Euthanasia,1.0,"(-0.025, 2.5]",2016-08,1 year,A733433,Other,Bat,Black/Brown,Normal,1.0,2016,0.013194444444444444
+A693549,Rabies Risk,Euthanasia,1.0,"(-0.025, 2.5]",2014-12,1 year,A693549,Other,Bat Mix,Brown,Sick,1.0,2014,0.8097222222222222
+A746119,Partner,Transfer,0.03835616438356165,"(-0.025, 2.5]",2017-03,2 weeks,A746119,Cat,Domestic Shorthair Mix,Tortie,Nursing,0.03835616438356165,2017,0.09236111111111113
+A704351,Partner,Transfer,0.1643835616438356,"(-0.025, 2.5]",2015-06,1 month,A704351,Cat,Domestic Shorthair Mix,Tortie,Normal,0.0821917808219178,2015,11.933333333333335
+A704095,Partner,Transfer,0.1643835616438356,"(-0.025, 2.5]",2015-06,2 months,A704095,Dog,Chihuahua Shorthair Mix,Chocolate,Normal,0.1643835616438356,2015,10.040972222222225
+A673309,Suffering,Euthanasia,1.0,"(-0.025, 2.5]",2014-02,1 year,A673309,Other,Fox Mix,Red/White,Sick,1.0,2014,0.6
+A703393,Partner,Transfer,2.0,"(-0.025, 2.5]",2017-03,2 years,A703393,Dog,Pointer Mix,Black/White,Normal,2.0,2017,9.982638888888891
+A690541,SCRP,Transfer,1.0,"(-0.025, 2.5]",2014-10,1 year,A690541,Cat,Domestic Shorthair Mix,White/Black,Normal,1.0,2014,0.8756944444444444
+A749776,Foster,Adoption,0.0821917808219178,"(-0.025, 2.5]",2017-06,1 month,A749776,Dog,Australian Shepherd Mix,Blue Merle,Normal,0.0821917808219178,2017,18.191666666666666
+A711812,Partner,Transfer,3.0,"(2.5, 5.0]",2015-09,3 years,A711812,Dog,Jack Russell Terrier/Shih Tzu,White/Brown,Normal,3.0,2015,15.045138888888891
+A689968,Suffering,Euthanasia,1.0,"(-0.025, 2.5]",2014-10,1 year,A689968,Other,Opossum,Gray/Pink,Injured,1.0,2014,0.009027777777777777
+A674166,Suffering,Euthanasia,2.0,"(-0.025, 2.5]",2014-03,2 years,A674166,Other,Raccoon Mix,Black/White,Sick,2.0,2014,0.013888888888888888
+A646647,Partner,Transfer,1.0,"(-0.025, 2.5]",2014-06,1 year,A646647,Cat,Domestic Shorthair Mix,Orange Tabby/White,Normal,1.0,2014,33.19375
+A722291,Partner,Transfer,0.1643835616438356,"(-0.025, 2.5]",2016-03,2 months,A722291,Dog,Labrador Retriever/Standard Poodle,Tan/White,Normal,0.1643835616438356,2016,4.132638888888889
+A764202,Foster,Adoption,0.9041095890410958,"(-0.025, 2.5]",2018-03,8 months,A764202,Cat,Domestic Shorthair Mix,White/Brown Tabby,Sick,0.6575342465753424,2017,91.21597222222223
+A666863,Partner,Transfer,2.0,"(-0.025, 2.5]",2013-11,2 years,A666863,Other,Guinea Pig Mix,Brown/White,Normal,2.0,2013,3.1930555555555555
+A726072,Foster,Adoption,0.1643835616438356,"(-0.025, 2.5]",2016-07,1 weeks,A726072,Cat,Domestic Shorthair Mix,Tortie,Normal,0.019178082191780826,2016,65.06111111111112
+A718504,Partner,Transfer,0.6575342465753424,"(-0.025, 2.5]",2016-01,8 months,A718504,Dog,Labrador Retriever Mix,White/Brown,Injured,0.6575342465753424,2016,5.31875
+A676170,Partner,Transfer,0.7397260273972602,"(-0.025, 2.5]",2014-04,9 months,A676170,Cat,Domestic Shorthair Mix,Orange Tabby,Normal,0.7397260273972602,2014,4.020138888888889
+A732773,SCRP,Transfer,2.0,"(-0.025, 2.5]",2016-08,2 years,A732773,Cat,Domestic Shorthair Mix,Blue Tabby,Normal,2.0,2016,0.8916666666666667
+A688009,Aggressive,Euthanasia,1.0,"(-0.025, 2.5]",2014-09,1 year,A688009,Dog,Pit Bull Mix,Brown/White,Normal,1.0,2014,6.779861111111112
+A711575,Partner,Transfer,0.0821917808219178,"(-0.025, 2.5]",2015-10,1 month,A711575,Cat,Domestic Shorthair Mix,Orange Tabby,Normal,0.0821917808219178,2015,16.100694444444443
