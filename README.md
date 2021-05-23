@@ -1,5 +1,9 @@
 # austin_animal_shelter_analysis
 
+## Project Overview
+
+This project is intended to look at Austin Animal Shelter outcomes for dogs, to help us understand what dogs are more likely to be adopted.
+
 ## Communication Protocols
 
 This project team has established the following meeting schedules and processes for communication:
