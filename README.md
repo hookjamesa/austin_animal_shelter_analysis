@@ -18,6 +18,14 @@ The Austin Animal Center is the largest no-kill animal shelter in the United Sta
   * 0 = Higer adoption rate
   * 1 = Lower adoption rate
 
+### ETL Steps - Segment 1
+* Dropped the non-useful colums
+* Created a ctegorical variable list and validated the number of unique values in ech column
+  *  age_upon_outcome_age_group, outcome_monthyear, age_upon_intake, animal_type, breed, color, intake_condition
+* Used **OneHotEncorder** for categorical transformation and finally merged with the original dataframe and dropped the original list
+* Next Defined a **target vector**, built a **train and test** dataset and used **standardSclar** model to **fit * transform** the data.
+* Finally used a **Decision Tree Classifier** to plot the model and using confusion matrix we predicted the **Adoption Vs Non-Adoption** rate
+
 ### Tools and Resources
 * Python - For ETL 
 * Juptier Notebool - IDE 
