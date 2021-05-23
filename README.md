@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is intended to look at Austin Animal Shelter outcomes for dogs, to help us understand what dogs are more likely to be adopted.
+This project is intended to look at Austin Animal Shelter outcomes for dogs, to help us understand what dogs are more likely to be adopted. We are using 2012-2017 data to help understand customer perspectives as we come out of the 2020 year.
 
 ## Communication Protocols
 
@@ -20,13 +20,3 @@ This project team has established the following meeting schedules and processes 
 * Discussions
     * Outside of meeting times, for team member discussions, the team will primarily use Slack to discuss project needs and any logistical issues the team runs across.
     * In case of emergency, the team has put together a phone number list for additional communication outside of Slack.
-
-## Overview
-
-## Analysis Tools
-
-## Outcomes
-
-
-
-## Presentation
