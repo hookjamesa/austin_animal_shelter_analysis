@@ -9,7 +9,12 @@ The Austin Animal Center is the largest no-kill animal shelter in the United Sta
 * PostgresSQL - Databasae to store data
 * Dashboard - Tableau
 * GitHUB - Source code storage and comman portal to merge group work
-* 
+
+### Communication Protocols
+* Slack - a group channel for posting files and refernce links
+* Mobile phones - Group text messaging for faster communication and response
+* Zoom - For group meetings and paired programming
+
 ### Outcomes
 
 #### Dataset Information:
@@ -36,11 +41,6 @@ The Austin Animal Center is the largest no-kill animal shelter in the United Sta
 * Next Defined a **target vector**, built a **train and test** dataset and used **standardSclar** model to **fit * transform** the data.
 * Finally used a **Decision Tree Classifier** to plot the model and using confusion matrix we predicted the **Adoption Vs Non-Adoption** rate
 
-
-#### Communication Protocols
-* Slack - a group channel for posting files and refernce links
-* Mobile phones - Group text messaging for faster communication and response
-* Zoom - For group meetings and paired programming
 
 ### Presentation
 #### Exploratory Analysis
