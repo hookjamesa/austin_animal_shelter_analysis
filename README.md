@@ -1,11 +1,15 @@
-# austin_animal_shelter_analysis
+### Overview
 
-## Project Overview
+The Austin Animal Center is the largest no-kill animal shelter in the United States that provides care and shelter to over 18,000 animals each year. The focus of this analysis is to provide exploratory analysis using features and build a machine learning model to predict the animal adoption rate. 
 
-This project is intended to look at Austin Animal Shelter outcomes for dogs, to help us understand what dogs are more likely to be adopted. We are using 2012-2017 data to help understand customer perspectives as we come out of the 2020 year.
+### Analysis Tools
+* Python - For ETL 
+* Juptier Notebook - IDE 
+* PostgreSQL - Databasae to store data
+* Dashboard - Tableau/HTML Page
+* GitHUB - Source code storage and comman portal to merge group work
 
-## Communication Protocols
-
+### Communication Protocols
 This project team has established the following meeting schedules and processes for communication:
 
 * Deadlines
@@ -20,3 +24,46 @@ This project team has established the following meeting schedules and processes 
 * Discussions
     * Outside of meeting times, for team member discussions, the team will primarily use Slack to discuss project needs and any logistical issues the team runs across.
     * In case of emergency, the team has put together a phone number list for additional communication outside of Slack.
+
+### Outcomes
+
+#### Pre-processing Dataset Information:
+* animal_type - Dog, Cat, Others
+* age_upon_intake_(years) - .08,1,2,3
+* intake_condition - Sick, Aged, etc.
+* *intake_weekday* 
+* *intake_month*
+* *intake_month_day*
+* *outcome_month_day*
+* outcome_type - Adopted Vs Others
+* age_upon_intake
+* breed 
+* color
+* target - Adoption
+  * 0 = Higer adoption rate
+  * 1 = Lower adoption rate
+
+#### ETL Steps - Segment 1
+* Dropped the non-useful colums
+* Created a ctegorical variable list and validated the number of unique values in ech column
+  *  age_upon_outcome_age_group, outcome_monthyear, age_upon_intake, animal_type, breed, color, intake_condition
+* Used **OneHotEncorder** for categorical transformation and finally merged with the original dataframe and dropped the original list
+* Next Defined a **target vector**, built a **train and test** dataset and used **standardScalar** model to **fit & transform** the data.
+* Finally used a **Decision Tree Classifier** to plot the model and using confusion matrix we predicted the **Adoption Vs Non-Adoption** rate
+
+
+### Presentation
+#### Exploratory Analysis
+* Average age of analimal at intake by animal type 
+* Age distribution by animal type - Box Plot
+* Average age by intake condition
+* Age distribution by intake condition
+* Intake count by weekdaays
+* Intke count by months
+#### ML Models
+* Outcome  (Stary Vs Other types)
+* Outcome ( adoption vs other)
+* Outcome others (Died, Transfered, Euthanasia, Return)
+
+#### Dashboard
+A story board that would show a data vizulation of all exploratory charts would be build either using Tableau or HTML page.
