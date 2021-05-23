@@ -1,13 +1,13 @@
 # Austin_Animal_Shelter_Adoption_Analysis
 ### Overview
 
-The Austin Animal Center is the largest no-kill animal shelter in the United States that provides care and shelter to over 18,000 animals each year. The focus of this analysis is to determine what are the key features that show how likely would a pet find a permanent loving home. 
+The Austin Animal Center is the largest no-kill animal shelter in the United States that provides care and shelter to over 18,000 animals each year. The focus of this analysis is to provide exploratory analysis using fetures and build a machine learning model to predict the animal adoption rate. 
 
 ### Analysis Tools
 * Python - For ETL 
-* Juptier Notebool - IDE 
+* Juptier Notebook - IDE 
 * PostgresSQL - Databasae to store data
-* Dashboard - Tableau
+* Dashboard - Tableau/HTML Page
 * GitHUB - Source code storage and comman portal to merge group work
 
 ### Communication Protocols
@@ -17,7 +17,7 @@ The Austin Animal Center is the largest no-kill animal shelter in the United Sta
 
 ### Outcomes
 
-#### Pre-procession Dataset Information:
+#### Pre-processing Dataset Information:
 * animal_type - Dog, Cat, Others
 * age_upon_intake_(years) - .08,1,2,3
 * intake_condition - Sick, Aged, etc.
