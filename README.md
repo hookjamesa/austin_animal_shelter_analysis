@@ -17,7 +17,7 @@ The Austin Animal Center is the largest no-kill animal shelter in the United Sta
 
 ### Outcomes
 
-#### Dataset Information:
+#### Pre-procession Dataset Information:
 * animal_type - Dog, Cat, Others
 * age_upon_intake_(years) - .08,1,2,3
 * intake_condition - Sick, Aged, etc.
