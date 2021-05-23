@@ -1,0 +1,101 @@
+,animal_id_outcome,outcome_subtype,sex_upon_outcome,age_upon_outcome_(days),age_upon_outcome_age_group,outcome_monthyear,animal_type,breed,color,intake_condition,age_upon_intake_(days),intake_month,time_in_shelter_days,Adoption
+8909,A670859,SCRP,Neutered Male,730,"(-0.025, 2.5]",2014-01,Cat,Domestic Shorthair Mix,Orange Tabby,Normal,730,1,0.9145833333333332,0
+13191,A677289,In Kennel,Intact Female,90,"(-0.025, 2.5]",2014-04,Dog,Beagle Mix,White/Brown,Sick,60,4,5.197916666666667,0
+51289,A727962,Partner,Spayed Female,365,"(-0.025, 2.5]",2016-06,Dog,Shih Tzu,Cream,Injured,365,5,5.425000000000002,0
+45264,A719539,Partner,Intact Female,7,"(-0.025, 2.5]",2016-01,Cat,Domestic Longhair Mix,Blue Tabby,Normal,0,1,7.2652777777777775,0
+77393,A764970,Snr,Intact Male,1460,"(2.5, 5.0]",2018-01,Cat,Domestic Shorthair Mix,Black/Black,Normal,1460,1,4.238888888888889,0
+30184,A699817,Rabies Risk,Unknown,365,"(-0.025, 2.5]",2015-04,Other,Bat Mix,Brown,Normal,365,4,0.0027777777777777783,0
+28238,A696987,SCRP,Intact Male,1460,"(2.5, 5.0]",2015-02,Cat,Domestic Shorthair Mix,Brown Tabby,Normal,1460,2,0.9847222222222224,0
+2304,A619742,Partner,Neutered Male,1825,"(2.5, 5.0]",2016-10,Dog,Irish Terrier Mix,Brown/Black,Normal,1825,10,11.102083333333335,0
+9471,A671695,In Foster,Spayed Female,4015,"(10.0, 12.5]",2017-04,Dog,Pit Bull Mix,Blue/White,Normal,3650,8,263.1243055555556,0
+5698,A666307,Partner,Intact Female,30,"(-0.025, 2.5]",2013-10,Dog,Yorkshire Terrier Mix,Black/Tan,Normal,30,10,0.2534722222222222,0
+32369,A702509,Suffering,Intact Male,150,"(-0.025, 2.5]",2015-05,Dog,Great Pyrenees Mix,White,Injured,150,5,0.06458333333333334,0
+69075,A752504,Partner,Intact Female,21,"(-0.025, 2.5]",2017-07,Cat,Domestic Shorthair Mix,White/Black,Normal,14,6,12.139583333333333,0
+72025,A756770,Partner,Intact Male,2190,"(5.0, 7.5]",2017-09,Dog,Dachshund Mix,Black/Brown,Injured,1825,8,7.169444444444443,0
+31602,A701612,Partner,Intact Female,30,"(-0.025, 2.5]",2015-05,Cat,Domestic Shorthair Mix,Calico/Black,Normal,28,5,5.075,0
+64257,A745645,Rabies Risk,Unknown,1460,"(2.5, 5.0]",2017-03,Other,Bat Mix,Brown,Normal,1460,3,0.02013888888888889,0
+45265,A719540,In Foster,Intact Male,4,"(-0.025, 2.5]",2016-01,Cat,Domestic Longhair Mix,Blue Tabby/White,Normal,0,1,3.9305555555555554,0
+71112,A755429,Partner,Spayed Female,1825,"(2.5, 5.0]",2017-08,Dog,Sussex Span Mix,Chocolate,Normal,1825,8,4.243055555555555,0
+37473,A708986,Partner,Intact Female,240,"(-0.025, 2.5]",2015-08,Cat,Domestic Shorthair Mix,Brown Tabby,Normal,210,8,5.875000000000001,0
+22825,A689652,Foster,Neutered Male,365,"(-0.025, 2.5]",2014-11,Dog,Collie Smooth Mix,Red Tick,Normal,365,10,26.913888888888888,1
+41788,A714705,Partner,Intact Male,14,"(-0.025, 2.5]",2015-10,Cat,Domestic Medium Hair Mix,Black/Black Tabby,Nursing,14,10,0.20277777777777775,0
+24725,A692219,SCRP,Spayed Female,730,"(-0.025, 2.5]",2014-11,Cat,Domestic Shorthair Mix,Calico,Normal,730,11,8.985416666666667,0
+23824,A690950,Foster,Spayed Female,1825,"(2.5, 5.0]",2015-06,Dog,Boxer/Labrador Retriever,Black/Brown,Injured,1460,10,223.93819444444443,1
+7155,A668381,Partner,Neutered Male,730,"(-0.025, 2.5]",2013-12,Dog,Chinese Sharpei Mix,Black,Normal,730,12,26.18125,0
+27918,A696564,Partner,Spayed Female,1825,"(2.5, 5.0]",2015-05,Dog,Labrador Retriever Mix,Black/White,Normal,1825,2,93.99166666666667,0
+7233,A668511,Partner,Neutered Male,365,"(-0.025, 2.5]",2014-01,Dog,Pit Bull Mix,Black,Normal,365,12,27.71736111111111,0
+70019,A753754,Partner,Intact Male,1095,"(2.5, 5.0]",2017-07,Dog,Pit Bull Mix,Blue/White,Normal,1095,7,10.81875,0
+57085,A735438,Partner,Spayed Female,210,"(-0.025, 2.5]",2016-11,Cat,Domestic Shorthair,Brown Tabby,Normal,180,9,52.5,0
+32913,A703239,Partner,Intact Female,1095,"(2.5, 5.0]",2015-05,Dog,Chihuahua Shorthair Mix,Black/White,Normal,1095,5,4.997222222222222,0
+54082,A731630,SCRP,Neutered Male,365,"(-0.025, 2.5]",2016-08,Cat,Domestic Shorthair Mix,Orange Tabby,Normal,365,8,0.7500000000000001,0
+57395,A735825,Suffering,Unknown,1095,"(2.5, 5.0]",2016-10,Cat,Domestic Shorthair Mix,White/Blue,Injured,1095,9,1.3395833333333331,0
+22400,A689092,SCRP,Intact Male,730,"(-0.025, 2.5]",2014-09,Cat,Maine Coon Mix,Brown Tabby/White,Normal,730,9,0.81875,0
+57103,A735462,Partner,Spayed Female,1095,"(2.5, 5.0]",2016-10,Cat,Domestic Shorthair Mix,Orange Tabby,Normal,1095,9,9.379861111111113,0
+15784,A680478,Partner,Spayed Female,730,"(-0.025, 2.5]",2014-09,Cat,Domestic Longhair Mix,Blue/White,Normal,730,6,102.14583333333331,0
+67911,A751003,Rabies Risk,Unknown,730,"(-0.025, 2.5]",2017-06,Other,Raccoon Mix,Black/White,Sick,730,6,0.9222222222222224,0
+78474,A766711,Partner,Intact Female,30,"(-0.025, 2.5]",2018-02,Dog,Australian Shepherd Mix,Cream,Normal,30,2,0.20208333333333334,0
+72284,A757159,Rabies Risk,Unknown,365,"(-0.025, 2.5]",2017-08,Other,Bat Mix,Brown,Normal,365,8,0.4847222222222222,0
+45654,A720123,In Foster,Unknown,5,"(-0.025, 2.5]",2016-02,Dog,Boxer Mix,Black,Nursing,3,2,1.6090277777777775,0
+12149,A675779,Foster,Neutered Male,60,"(-0.025, 2.5]",2014-04,Cat,Domestic Shorthair Mix,Brown Tabby/White,Normal,30,4,18.33333333333333,1
+24761,A692263,SCRP,Intact Male,730,"(-0.025, 2.5]",2014-11,Cat,Domestic Shorthair Mix,Black,Normal,730,11,8.053472222222222,0
+18168,A683644,Foster,Spayed Female,120,"(-0.025, 2.5]",2014-11,Dog,Border Collie Mix,Brown/White,Nursing,28,7,115.96111111111112,1
+37879,A709600,Partner,Neutered Male,2920,"(7.5, 10.0]",2015-08,Dog,Dachshund Mix,Red,Normal,2920,8,14.023611111111109,0
+54274,A731888,Partner,Unknown,365,"(-0.025, 2.5]",2016-07,Other,Guinea Pig Mix,Calico,Normal,365,7,1.6513888888888888,0
+68323,A751511,Suffering,Unknown,2190,"(5.0, 7.5]",2017-06,Bird,Duck Mix,Brown/Green,Injured,2190,6,2.2715277777777776,0
+16903,A682002,Partner,Intact Female,2,"(-0.025, 2.5]",2014-06,Cat,Domestic Shorthair Mix,Calico,Nursing,2,6,0.036805555555555564,0
+25276,A692975,Foster,Spayed Female,60,"(-0.025, 2.5]",2015-01,Cat,Domestic Shorthair Mix,Brown Tabby/White,Normal,30,11,42.068055555555546,1
+69293,A752786,Partner,Intact Male,28,"(-0.025, 2.5]",2017-07,Cat,Domestic Shorthair Mix,Blue Tabby,Normal,21,6,6.193055555555556,0
+7360,A668675,Aggressive,Neutered Male,240,"(-0.025, 2.5]",2013-12,Dog,Labrador Retriever Mix,Brown/White,Normal,240,12,20.882638888888884,0
+13236,A677357,Partner,Intact Male,21,"(-0.025, 2.5]",2014-04,Cat,Domestic Shorthair Mix,Black/White,Normal,21,4,0.18125,0
+43234,A716810,SCRP,Intact Male,90,"(-0.025, 2.5]",2015-11,Cat,Domestic Shorthair Mix,Black,Normal,90,11,5.238194444444446,0
+38867,A710938,Suffering,Unknown,14,"(-0.025, 2.5]",2015-08,Other,Squirrel Mix,Brown,Injured,14,8,0.005555555555555557,0
+39771,A712032,Suffering,Intact Female,60,"(-0.025, 2.5]",2015-09,Cat,Domestic Shorthair Mix,Black,Injured,60,9,0.08263888888888889,0
+70659,A754729,Rabies Risk,Unknown,730,"(-0.025, 2.5]",2017-07,Other,Bat Mix,Brown/Black,Normal,730,7,0.006944444444444444,0
+5348,A665747,Partner,Intact Male,60,"(-0.025, 2.5]",2013-10,Cat,Domestic Shorthair Mix,Black/White,Normal,60,10,2.1597222222222223,0
+13575,A677836,Foster,Spayed Female,90,"(-0.025, 2.5]",2014-07,Cat,Domestic Shorthair Mix,Black/White,Normal,28,4,73.72222222222223,1
+48007,A723432,Suffering,Unknown,21,"(-0.025, 2.5]",2016-04,Cat,Domestic Shorthair Mix,Brown Tabby/White,Injured,14,3,6.004861111111111,0
+21317,A687741,Partner,Spayed Female,365,"(-0.025, 2.5]",2015-11,Dog,Plott Hound/Blue Lacy,Brown Brindle,Normal,365,11,0.3743055555555556,0
+31279,A701223,Partner,Intact Female,21,"(-0.025, 2.5]",2015-04,Cat,Domestic Shorthair Mix,Black/White,Normal,21,4,0.08125,0
+68129,A751253,In Foster,Intact Female,30,"(-0.025, 2.5]",2017-06,Cat,Domestic Shorthair Mix,Brown Tabby,Normal,21,6,19.872222222222227,0
+50953,A727553,Partner,Unknown,14,"(-0.025, 2.5]",2016-05,Cat,Domestic Shorthair Mix,Orange Tabby/White,Normal,14,5,0.2486111111111111,0
+14429,A678868,Foster,Neutered Male,90,"(-0.025, 2.5]",2014-08,Cat,Domestic Shorthair Mix,Brown Tabby/White,Normal,7,5,83.675,1
+39394,A711592,Partner,Intact Female,30,"(-0.025, 2.5]",2015-09,Cat,Domestic Shorthair Mix,Torbie,Normal,28,9,12.14375,0
+38731,A710767,SCRP,Intact Female,90,"(-0.025, 2.5]",2015-08,Cat,Domestic Shorthair Mix,Blue Tabby,Normal,90,8,0.8125,0
+24025,A691270,Suffering,Intact Male,30,"(-0.025, 2.5]",2014-11,Dog,Yorkshire Terrier Mix,Tan/Blue,Sick,30,11,0.5965277777777778,0
+62828,A743566,Foster,Spayed Female,60,"(-0.025, 2.5]",2017-04,Cat,Domestic Shorthair Mix,Black Smoke,Normal,21,2,62.00625,1
+35766,A706649,SCRP,Unknown,1095,"(2.5, 5.0]",2015-07,Cat,Domestic Shorthair Mix,Brown Tabby,Normal,1095,7,0.8048611111111111,0
+55138,A732996,Rabies Risk,Unknown,180,"(-0.025, 2.5]",2016-08,Other,Bat Mix,Brown,Normal,150,8,0.4645833333333334,0
+2044,A611152,Foster,Neutered Male,1460,"(2.5, 5.0]",2014-07,Dog,Labrador Retriever/Beagle,Black/White,Normal,1460,6,29.05347222222223,1
+35158,A705896,Partner,Intact Male,150,"(-0.025, 2.5]",2015-07,Dog,Labrador Retriever Mix,Black,Sick,120,6,17.939583333333335,0
+32633,A702836,Foster,Neutered Male,60,"(-0.025, 2.5]",2015-07,Cat,Domestic Shorthair Mix,Black,Sick,30,5,45.80625000000001,1
+35249,A706012,Partner,Unknown,21,"(-0.025, 2.5]",2015-06,Cat,Domestic Medium Hair Mix,Blue,Sick,21,6,0.11736111111111112,0
+60571,A740215,SCRP,Intact Male,730,"(-0.025, 2.5]",2016-12,Cat,Domestic Shorthair Mix,Blue/White,Normal,730,12,0.6708333333333333,0
+29515,A698868,Partner,Neutered Male,730,"(-0.025, 2.5]",2017-05,Dog,Boxer Mix,Brown/White,Normal,730,5,6.070833333333334,0
+64521,A746044,Partner,Unknown,14,"(-0.025, 2.5]",2017-03,Cat,Domestic Shorthair Mix,Yellow/Orange Tabby,Normal,14,3,0.7951388888888888,0
+56463,A734647,Partner,Neutered Male,365,"(-0.025, 2.5]",2016-10,Dog,Dachshund Mix,Tan/White,Normal,365,10,1.4097222222222223,0
+16356,A681256,Partner,Spayed Female,90,"(-0.025, 2.5]",2014-06,Dog,Collie Smooth Mix,Tricolor,Normal,90,6,12.008333333333335,0
+38631,A710654,Partner,Intact Female,28,"(-0.025, 2.5]",2015-09,Cat,Domestic Shorthair Mix,Blue Tabby/White,Normal,7,8,20.075694444444444,0
+16185,A681015,Partner,Neutered Male,60,"(-0.025, 2.5]",2014-06,Cat,Domestic Longhair Mix,Black/White,Normal,60,6,4.199305555555555,0
+50910,A727495,Partner,Intact Male,730,"(-0.025, 2.5]",2016-05,Dog,Lhasa Apso Mix,Tricolor,Normal,730,5,3.31875,0
+12384,A676165,Rabies Risk,Unknown,270,"(-0.025, 2.5]",2014-04,Other,Raccoon Mix,Gray/Black,Sick,270,4,0.05486111111111111,0
+21743,A688274,Offsite,Spayed Female,60,"(-0.025, 2.5]",2014-09,Dog,Chihuahua Shorthair Mix,Sable/White,Normal,60,9,3.19375,1
+75102,A761116,Rabies Risk,Unknown,365,"(-0.025, 2.5]",2017-10,Other,Bat,Red,Normal,365,10,0.7638888888888888,0
+1721,A597304,Partner,Spayed Female,2920,"(7.5, 10.0]",2016-11,Dog,Cocker Spaniel,Black/White,Normal,2920,11,8.06875,0
+26062,A693992,Partner,Intact Female,180,"(-0.025, 2.5]",2014-12,Dog,Anatol Shepherd/German Shepherd,Tan/Black,Normal,180,12,12.047222222222226,0
+16057,A680857,Partner,Unknown,14,"(-0.025, 2.5]",2014-06,Bird,Duck,Yellow/Black,Normal,14,6,0.5138888888888888,0
+53701,A731136,Partner,Intact Male,2,"(-0.025, 2.5]",2016-07,Dog,Jack Russell Terrier Mix,White/Brown,Pregnant,0,7,2.2270833333333333,0
+20836,A687097,Partner,Intact Female,1095,"(2.5, 5.0]",2014-09,Dog,American Staffordshire Terrier Mix,Brown Brindle/White,Normal,1095,8,8.155555555555555,0
+18675,A684307,Partner,Intact Male,365,"(-0.025, 2.5]",2014-08,Dog,Miniature Schnauzer Mix,White,Normal,365,8,2.095138888888889,0
+63795,A744953,Partner,Spayed Female,365,"(-0.025, 2.5]",2017-03,Dog,German Shepherd Mix,Brown/Black,Normal,365,3,9.589583333333334,0
+39708,A711959,Rabies Risk,Unknown,180,"(-0.025, 2.5]",2015-09,Other,Bat Mix,Gray,Normal,180,9,0.0625,0
+11723,A675120,Aggressive,Intact Female,365,"(-0.025, 2.5]",2014-03,Dog,Pit Bull Mix,Brown Brindle/Black,Normal,365,3,3.902083333333333,0
+23248,A690210,Suffering,Intact Female,730,"(-0.025, 2.5]",2014-10,Other,Squirrel Mix,Brown,Injured,730,10,0.011805555555555557,0
+10372,A673234,Foster,Neutered Male,1095,"(2.5, 5.0]",2014-08,Dog,Chihuahua Shorthair Mix,Black/Tan,Injured,1095,2,179.16666666666669,1
+37161,A708544,Partner,Neutered Male,730,"(-0.025, 2.5]",2015-10,Dog,Bull Terrier Mix,Fawn/White,Normal,730,8,48.09097222222222,0
+31297,A701246,Medical,Spayed Female,2555,"(5.0, 7.5]",2015-06,Cat,Domestic Shorthair Mix,Calico,Normal,2555,4,63.12152777777778,0
+56622,A734850,Partner,Intact Female,2920,"(7.5, 10.0]",2016-09,Dog,Chihuahua Shorthair Mix,Brown/White,Normal,2920,9,3.26875,0
+53699,A731134,Partner,Intact Male,2,"(-0.025, 2.5]",2016-07,Dog,Jack Russell Terrier Mix,Black/Tan,Pregnant,0,7,2.2277777777777783,0
+30824,A700638,Foster,Spayed Female,60,"(-0.025, 2.5]",2015-05,Cat,Domestic Shorthair Mix,Black,Normal,30,4,26.222916666666666,1
+73261,A758429,Partner,Intact Male,28,"(-0.025, 2.5]",2017-09,Cat,Domestic Shorthair Mix,Gray Tabby,Normal,28,9,0.6368055555555555,0
+61448,A741628,SCRP,Spayed Female,365,"(-0.025, 2.5]",2017-01,Cat,Domestic Medium Hair,Blue/White,Normal,365,1,0.86875,0
+44792,A718919,Partner,Unknown,365,"(-0.025, 2.5]",2016-01,Other,Rabbit Sh Mix,Black/White,Normal,365,1,0.09305555555555556,0
