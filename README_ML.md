@@ -16,4 +16,4 @@ The very highest levels of accuracy are not required as there are no serious hea
 
 ### How does this model work?
 
-The goal is to progressively split and separate samples with a more similar structure that will result in more pure subsets of data. The algorithm looks between all features for the highest impurity and splits the parent node in child nodes. The tree ends up with a series of branches (i.e. questions and answers) that eventually lead to an classification prediction representing a probability of a particular outcome, based on the series of criteria represented leading to it. 
+The goal is to progressively split and separate samples with a more similar structure that will result in more pure subsets of data. The algorithm looks between all features for the highest impurity and splits the parent node into child nodes. The tree ends up with a series of branches (i.e. questions and answers) that eventually lead to an classification prediction representing a probability of a particular outcome, based on the series of criteria represented leading to it. 
