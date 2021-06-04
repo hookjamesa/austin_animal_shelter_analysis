@@ -1,7 +1,9 @@
 <div align="center">
-![](https://github.com/hookjamesa/austin_animal_shelter_analysis/tree/main/Resources/Images/AAC_readme_header.jpg)
+
+![](https://github.com/hookjamesa/austin_animal_shelter_analysis/blob/kenning_seg2/Resources/Images/AAC_readme_header.jpg)
 
 <div align="left">
+
 # Austin Animal Shelter Analysis
 
 Analysis of over 80,000 animal adoption intake and outcome data entries for the Austin Animal Center to predict likelihood of adoption outcome
