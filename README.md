@@ -7,13 +7,15 @@ Analysis of over 80,000 animal adoption intake and outcome data entries for the 
 
 ## Project Overview and Objective
 
-The Austin Animal Center is the largest no-kill animal shelter in the United States that provides care and shelter to over 18,000 animals each year. The goal of this study is to perform exploratory analysis to determine whether there is a predictable pattern or visible trend to shelter pet adoption outcomes. A supervised machine learning model is also built to try and predict what the adoption outcome for an animal at the shelter will be based on a range of criteria (e.g. animal type, breed, age, time in shelter, etc.). 
+The Austin Animal Center is the largest no-kill animal shelter in the United States that provides care and shelter to over 18,000 animals each year. The goal of this study is to perform exploratory analysis to determine whether there is a predictable pattern or visible trend to shelter pet adoption outcomes. A supervised machine learning model is also built to try and predict what the adoption outcome for an animal at the shelter will be based on a range of criteria (e.g. animal type, breed, age, time in shelter, etc.).
 
 ### Purpose of the study
 
 Analysis of the animal shelter data has the potential to uncover useful insights that could help improve the welfare of animals in the Austin region and perhaps be applied to other areas. Employees at the animal shelter will be able to identify which animals will require more support and can respond effectively to try and prevent a negative outcome for higher risk animals. It would also be useful for the shelter to know which types of animals are more likely to require long-term housing or transfer services from the shelter, versus those that are likely to be adopted out - to assist with high-level resource, capacity, and budget planning. 
 
 The team chose this particular topic as we are all animal lovers with pets of our own. With a large spike in the rates of pet adoptions as a result of the Covid-19 pandemic, animal shelters have been struggling to continue operations in the wake of social distancing measures. As coronavirus restrictions are lifted, animal shelters will need more help than ever and it is hoped that people viewing the results of this analysis might become inspired to get involved in the local animal welfare community in Austin.
+
+**Link to Google Slides presentation: [click here](https://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing)**
 
 ### Data Source
 
@@ -139,4 +141,4 @@ Link to presentation containing dashboard storyboard plan/outline: [click here](
 
 The final dashboard will be built using visualizations created using Tableau. Tableau is a visual analytics platform that is good for creating a range of visualizations that is user friendly and easily accessible for non-programmers. The Tableau file will have a searchable/scrollable table of the dataset, a dashboard with charts for key variable relationships, and individual tabs for each plot. 
 
-One interactive element of the dashboard will be a drop-down selection menu that will allow the user to search and select which criteria to display for each variable, or combination of variables. Tableau should have the functionality to update the display for the data table and for all visualizations on display that are linked to the menu. 
+One interactive element of the dashboard will be a drop-down/checkbox selection menu that will allow the user to search and select which criteria to display for each variable, or combination of variables. Tableau should have the functionality to update the display for an inset data table and for all visualizations on display that are linked to the menu. 
