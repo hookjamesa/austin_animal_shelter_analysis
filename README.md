@@ -3,11 +3,11 @@
 
 # Austin Animal Shelter Analysis
 
-Analysis of 
+Analysis of over 80,000 animal adoption intake and outcome data entries for the Austin Animal Center to predict likelihood of adoption outcome
 
 ## Project Overview and Objective
 
-The Austin Animal Center is the largest no-kill animal shelter in the United States that provides care and shelter to over 18,000 animals each year. The goal of this study is to perform exploratory analysis to determine whether there is a predictable pattern or visible trend to shelter pet adoption outcomes. A supervised machine learning model is also built to try and predict whether an animal at the shelter will be adopted (=1) or not adopted (=0) based on a range of criteria (e.g. animal type, breed, age, time in shelter, etc.). 
+The Austin Animal Center is the largest no-kill animal shelter in the United States that provides care and shelter to over 18,000 animals each year. The goal of this study is to perform exploratory analysis to determine whether there is a predictable pattern or visible trend to shelter pet adoption outcomes. A supervised machine learning model is also built to try and predict what the adoption outcome for an animal at the shelter will be based on a range of criteria (e.g. animal type, breed, age, time in shelter, etc.). 
 
 ### Purpose of the study
 
@@ -15,17 +15,17 @@ Analysis of the animal shelter data has the potential to uncover useful insights
 
 The team chose this particular topic as we are all animal lovers with pets of our own. With a large spike in the rates of pet adoptions as a result of the Covid-19 pandemic, animal shelters have been struggling to continue operations in the wake of social distancing measures. As coronavirus restrictions are lifted, animal shelters will need more help than ever and it is hoped that people viewing the results of this analysis might become inspired to get involved in the local animal welfare community in Austin.
 
-### Data Source and Description
+### Data Source
 
 The data for this project was sourced from a [Kaggle dataset](https://www.kaggle.com/aaronschlegel/austin-animal-center-shelter-intakes-and-outcomes). The Austin Animal Center makes its data publically available as part of the [City of Austin Open Data Initiative](https://data.austintexas.gov/).
 
-The base dataset contains separate tables for intake and outcome data for animals entering the Austin Animal Center from October 2013 through 2018, with over 80,000 entries. 
+The base dataset contains separate tables for intake and outcome data for animals entering the Austin Animal Center from October 2013 through 2018, with over 80,000 entries. The data contains time/date data down the an hour frequency. 
 
 ### Tools and Resources Used
 
 **Exploratory Analysis**
   * Pandas library - extracting, cleaning, and transforming the data to make it suitable for analysis
-  * Matplotlib and Seaborn libraries - visualizing the data for exploratory analysis
+  * Matplotlib library - visualizing the data for exploratory analysis
   * Jupyter Notebook - IDE
 
 **Database**
@@ -80,46 +80,63 @@ The very highest levels of accuracy are not required as there are no serious hea
 The goal is to progressively split and separate samples with a more similar structure that will result in more pure subsets of data. The algorithm looks between all features for the highest impurity and splits the parent node into child nodes. The tree ends up with a series of branches (i.e. questions and answers) that eventually lead to a classification prediction representing a probability of a particular outcome, based on the series of represented criteria leading to it. 
 
 
-## Database
+## Data Exploration and Analysis Phases
 
-As mentioned, the dataset contains both intake and outcome data in seperate .csv files. The intake and outcome data was joined 
+### SQL Database
+Database: Shelter_db
+Tables: raw_input_outcome, animal_type, animal_in_out
 
-### Processed Dataset Information:
-* animal_type - Dog, Cat, Others
-* age_upon_intake_(years) - .08,1,2,3
-* intake_condition - Sick, Aged, etc.
-* *intake_weekday* 
-* *intake_month*
-* *intake_month_day*
-* *outcome_month_day*
-* outcome_type - Adopted Vs Others
-* age_upon_intake
-* breed 
-* color
-* target - Adoption
-  * 0 = Higer adoption rate
-  * 1 = Lower adoption rate
+**Database Creation and ETL Process Summary:**
+1. Shelter_db database was created in PgAdmin
+2. A database connection was created with Pandas library to load the raw data into the SQL database
+3. An SQL `Create` script made the "animal_type" master object
+4. Created a copy of the raw data and performed needed transformations
+5. Resulted in creation of a prepared "animal_in_out" dataset to be used for analysis
 
-### ETL Steps - Segment 1
-* Dropped the non-useful colums
-* Created a ctegorical variable list and validated the number of unique values in ech column
-  *  age_upon_outcome_age_group, outcome_monthyear, age_upon_intake, animal_type, breed, color, intake_condition
-* Used **OneHotEncorder** for categorical transformation and finally merged with the original dataframe and dropped the original list
-* Next Defined a **target vector**, built a **train and test** dataset and used **standardScalar** model to **fit & transform** the data.
-* Finally used a **Decision Tree Classifier** to plot the model and using confusion matrix we predicted the **Adoption Vs Non-Adoption** rate
+The animal_type and animal_in_out tables were joined using a unique key "animal_id" which is a combination of the "id" and "intake_id" . Several animals have been taken into and left the shelter multiple times which creates issues when joining the data. The animal_type table contains static variables (e.g. animal_type, breed, color) which remain unchanged that are linked to the "animal_id". The animal_in_out table it is joined to is a copy of the raw_income_outcome data but with the static functions removed. This animal_in_out table serves as the main operation table and contains non-static information (e.g age_upon_outcome, outcome_type, intake_datetime, etc.).
 
-### Presentation
-#### Exploratory Analysis
-* Average age of analimal at intake by animal type 
-* Age distribution by animal type - Box Plot
+### ETL Steps in Jupyter Notebook
+* Evaluated raw data file
+* Check file count, identify primary key, verify counts
+* Dropped duplicates
+* Checked data types
+* Imported data from SQL database
+* Renamed columns to match standards
+* Loaded base animal intake data into database
+* Read in 'animal_type' lookup table
+* Dropped off lookup columns from dataframe and created new table
+* Read in 'animal_in_out' table from database
+* Created dummy values for outcome types
+* Added dummy values to dataframe
+* Drop non-useful ID columns not needed for ML analysis
+* Merged the two tables to create a new dataset for ML analysis
+
+### Visualizations Created for Exploratory Analysis of Data
+* Average age of animal at intake by animal type
 * Average age by intake condition
-* Age distribution by intake condition
-* Intake count by weekdaays
-* Intke count by months
-#### ML Models
-* Outcome  (Stary Vs Other types)
-* Outcome ( adoption vs other)
-* Outcome others (Died, Transfered, Euthanasia, Return)
+* Intake count by day of the week
+* Intake count by month
+* Intake count by type of intake
+* Count by outcome type
+* Time in shelter by animal type
+* Count of intake by animal type
 
-#### Dashboard
-A story board that would show a data visualization of all exploratory charts would be build either using Tableau or HTML page.
+### Machine Learning Steps For Decision Tree Model
+* Encoded categorical variables
+* Defined target variable
+* Split the data into train and test datasets
+* Scaled the data
+* Created decision tree classifier instance
+* Fit the model
+* Plotted tree model
+* Made predictions from test data
+* Calculated confusion matrix, accuracy, classification report
+
+
+## Dashboard
+
+Link to presentation containing dashboard storyboard plan/outline: [click here](https://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing)
+
+The final dashboard will be built using visualizations created using Tableau. Tableau is a visual analytics platform that is good for creating a range of visualizations that is user friendly and easily accessible for non-programmers. The Tableau file will have a searchable/scrollable table of the dataset, a dashboard with charts for key variable relationships, and individual tabs for each plot. 
+
+One interactive element of the dashboard will be a drop-down selection menu that will allow the user to search and select which criteria to display for each variable, or combination of variables. Tableau should have the functionality to update the display for the data table and for all visualizations on display that are linked to the menu. 
