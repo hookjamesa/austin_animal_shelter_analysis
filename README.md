@@ -146,6 +146,7 @@ Note: the db password is protected in a "config.py" file.
 * Count by outcome type
 * Time in shelter by animal type
 * Count of intake by animal type
+* Age Filter
 
 ### Machine Learning Steps For Decision Tree Model
 * Encoded categorical variables
