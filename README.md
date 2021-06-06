@@ -96,8 +96,8 @@ Database: shelter_db
 Tables: raw_input_outcome, animal_type, animal_in_out
 
 ### Entity Relationship Diagram (ERD)
-[Database Design](/Resources/relativQuickDBD-export.pdf)
-[ERD](/Resources/QuickDBD-export.png)
+1. [Database Design](/Resources/relativQuickDBD-export.pdf)
+2. [ERD](/Resources/QuickDBD-export.png)
 
 
 **Database Creation and ETL Process Summary:**
