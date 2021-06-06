@@ -150,8 +150,8 @@ Note: the db password is protected in a "config.py" file.
 * Intake count by type of intake
 * Count by outcome type
 * Time in shelter by animal type
-* Count of intake by animal type
-* Age Filter
+* Intake Analysis - Condition, Age, Type, etc.
+* Age Analysis - Age distribution at intake, Age at Intake Vs time in shelter, etc.
 
 ### A snapshot of our exploratory charts
  <table>
