@@ -167,8 +167,8 @@ Note: the db password is protected in a "config.py" file.
 
  <table>
  <tr>   
-   <td align="center"> <b> Intake Vs Outcome Age </b> </td>
-   <td align="center"> <b> Timeperiod Analysis</b></td>
+   <td align="center"> <b> Categorical Analysis </b> </td>
+   <td align="center"> <b> Outcome Analysis</b></td>
   </tr> 
   <tr>   
     <td valign="top"> <img src="/Resources/Images/Intake_Type_Heatmap.png" width="500" /> </td>
