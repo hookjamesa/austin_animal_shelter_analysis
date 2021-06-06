@@ -1,0 +1,18 @@
+-- Creating table for sample aac dataset
+CREATE TABLE aac_sample (
+    animal_id_outcome VARCHAR(7) NOT NULL,
+    outcome_subtype VARCHAR(40) NOT NULL,
+	age_upon_outcome_years FLOAT(20) NOT NULL,
+	age_upon_outcome_age_group VARCHAR(20) NOT NULL,
+	outcome_monthyear VARCHAR NOT NULL,
+	age_upon_intake VARCHAR(20) NOT NULL,
+	animal_id_intake VARCHAR(7) NOT NULL,
+	animal_type VARCHAR(5) NOT NULL,
+	breed VARCHAR(40) NOT NULL,
+	color VARCHAR(40) NOT NULL,
+	intake_condition VARCHAR(8) NOT NULL,
+	age_upon_intake_years FLOAT(20) NOT NULL,
+	intake_year INT NOT NULL,
+	time_in_shelter_days FLOAT(20) NOT NULL,
+	Adoption INT NOT NULL
+);
