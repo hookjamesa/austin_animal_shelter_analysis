@@ -10,7 +10,7 @@ Analysis of over 80,000 animal adoption intake and outcome data entries for the 
 
 ## Project Overview and Objective
 
-The Austin Animal Center is the largest no-kill animal shelter in the United States that provides care and shelter to over 18,000 animals each year. The goal of this study is to perform exploratory analysis to determine whether there is a predictable pattern or visible trend to shelter pet adoption outcomes. A supervised machine learning model is also built to try and predict what the adoption outcome for an animal at the shelter will be based on a range of criteria (e.g. animal type, breed, age, time in shelter, etc.).
+The Austin Animal Center is the largest no-kill animal shelter in the United States that provides care and shelter to over 18,000 animals each year. The goal of this study is to perform exploratory analysis to determine whether there is a predictable pattern or visible trend to shelter pet adoption outcomes at the shelter. A supervised machine learning model is also built to try and predict what the adoption outcome for an animal at the shelter will be based on a range of criteria (e.g. animal type, breed, age, time in shelter, etc.).
 
 ### Purpose of the study
 
@@ -24,7 +24,7 @@ The team chose this particular topic as we are all animal lovers with pets of ou
 
 The data for this project was sourced from a [Kaggle dataset](https://www.kaggle.com/aaronschlegel/austin-animal-center-shelter-intakes-and-outcomes). The Austin Animal Center makes its data publically available as part of the [City of Austin Open Data Initiative](https://data.austintexas.gov/).
 
-The base dataset contains separate tables for intake and outcome data for animals entering the Austin Animal Center from October 2013 through 2018, with over 80,000 entries. The data contains time/date data down the an hour frequency. 
+The base dataset contains separate tables for intake and outcome data for animals entering the Austin Animal Center from October 2013 through 2018, with over 80,000 entries. The data contains time/date data down an hourly frequency. 
 
 ### Tools and Resources Used
 
@@ -37,7 +37,7 @@ The base dataset contains separate tables for intake and outcome data for animal
   * PostgreSQL - database storage, used join and transform data tables and directly linked in to the machine learning model
 
 **Machine Learning Model Analysis**
-  * SciKitLearn library - decision tree model used due to suitability for classification problems
+  * SciKitLearn library - to create machine learning models
   * Jupyter Notebook - IDE
 
 **Dashboard** 
@@ -92,11 +92,11 @@ Random Forests can leverage the power of multiple Decision Trees, with each node
 ## Data Exploration and Analysis Phases
 
 ### SQL Database
-Database: Shelter_db
+Database: shelter_db
 Tables: raw_input_outcome, animal_type, animal_in_out
 
 **Database Creation and ETL Process Summary:**
-1. Shelter_db database was created in PgAdmin
+1. shelter_db database was created in PgAdmin
 2. A database connection was created with Pandas library to load the raw data into the SQL database
 3. An SQL `Create` script made the "animal_type" master object
 4. Created a copy of the raw data and performed needed transformations
@@ -106,7 +106,7 @@ The animal_type and animal_in_out tables were joined using a unique key "animal_
 
 ### Database Setup Instructions
 1. Login to local PgAdmin and CREATE database named "shelter_db" (note: this step is required prior to executing the DB Pandas code below)
-2. Open and run the "Segment2_Merge1.ipynb" analysis file using Jupyter Notebook and follow steps
+2. Open and run the "Segment2_DB_Code.ipynb" analysis file using Jupyter Notebook and follow steps
 2. After loading the raw data file into an SQL table names "raw_input_outcome", open PgAdmin and execute the following query:
   `CREATE TABLE animal_type as SELECT DISTINCT animal_id_intake as animal_id, breed, color, animal_type FROM raw_input_outcome;`
 3. Continue with Pandas code steps to create third db object "anmimal_in_out
