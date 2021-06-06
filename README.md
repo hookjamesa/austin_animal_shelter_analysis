@@ -95,6 +95,10 @@ Random Forests can leverage the power of multiple Decision Trees, with each node
 Database: shelter_db
 Tables: raw_input_outcome, animal_type, animal_in_out
 
+### Entity Relationship Diagram (ERD)
+[ERD1](/Resources/relativQuickDBD-export.pdf)
+
+
 **Database Creation and ETL Process Summary:**
 1. shelter_db database was created in PgAdmin
 2. A database connection was created with Pandas library to load the raw data into the SQL database
