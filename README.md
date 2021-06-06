@@ -167,12 +167,12 @@ Note: the db password is protected in a "config.py" file.
 
  <table>
  <tr>   
-   <td align="center"> <b> Categorical Analysis </b> </td>
-   <td align="center"> <b> Outcome Analysis</b></td>
+   <td align="center"> <b> Adoption Vs Other Type </b> </td>
+   <td align="center"> <b> Duration Analysis</b></td>
   </tr> 
   <tr>   
-    <td valign="top"> <img src="/Resources/Images/Intake_Type_Heatmap.png" width="500" /> </td>
-    <td valign="top"> <img src="/Resources/Images/Adoption_Animal_Catplot.png" width="500" /> </td>
+    <td valign="top"> <img src="/Resources/Images/OutcomeAnalysis.png" width="500" /> </td>
+    <td valign="top"> <img src="/Resources/Images/Ageatintkevstimeinshelter.png" width="500" /> </td>
   </tr>     
 </Table>
 
