@@ -177,7 +177,7 @@ Note: the db password is protected in a "config.py" file.
   </tr> 
   <tr>   
     <td valign="top"> <img src="/Resources/Images/OutcomeAnalysis.png" width="500" /> </td>
-    <td valign="top"> <img src="/Resources/Images/Ageatintkevstimeinshelter.png" width="500" /> </td>
+    <td valign="top"> <img src="/Resources/Images/Durationanalysis.png" width="500" /> </td>
   </tr>     
 </Table>
 
