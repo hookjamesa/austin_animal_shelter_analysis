@@ -70,23 +70,28 @@ Using a machine learning model we are attempting to predict whether we can accur
 
 ### Which model did you choose and why?
 
-Initially, we chose to use a Decision Tree Classification as our model. As we are trying to predict whether an animal at a shelter gets adopted or not, this type of model is generally suitable for classification problems such as this. However, often a single tree is not sufficient for producing effective results, and this seems to be the case based on our initial model results as of 6/6/2021. 
+We chose to use a Decision Tree Classification as our initial model. As we are trying to predict whether an animal at a shelter gets adopted or not, this type of model is generally very suitable for solving classification problems such as this. However, often a single tree is not sufficient for producing effective results, and this seems like it could be the case based on our initial model results as of 6/6/2021.
 
-As such, the team is currently exploring whether a Random Forest model will provide better results as part of the ongoing iterative process. A Random Forest model leverages the power of multiple Decision Trees and does not rely on feature importance derived from a single tree. Due to its randomness it does not depend on any highly specific set of features and is able to generalize over the data in a superior way. On the downside, Random Forest models take longer to train and are a little more difficult to interpret than Decision Trees due to their "black box" nature, however the trade off is likely to be worth it for this particular study. 
+A Random Forest model might provide better results and could be considered as a alternative for future work. A Random Forest model leverages the power of multiple Decision Trees and does not rely on feature importance derived from a single tree. Due to its randomness it does not depend on any highly specific set of features and is able to generalize over the data in a superior way. On the downside, Random Forest models take longer to train and are a little more difficult to interpret than Decision Trees due to their "black box" nature, however the trade off is might be worth it for this study if it is able to produce better results.
 
 ### How are you training your model?
 
 The data-set will be split into training and test data. The model will learn on training data that possess a pre-defined set of labels for input variables. The model will predict outcomes for the target variable using the test data. 
 
+
 ### What is the model's accuracy?
 
-The very highest levels of accuracy are not required as there are no serious health, or life or death implications. It would be useful for the shelter's planning and budgeting to have a good idea which types of animals are likely to be in the shelter long term, which types of animals they are likely to have trouble getting adopted and may need to put more effort into promoting, among other uses. So a reasonable level of accuracy above 75% minimum is still required for the model to be useful in that regard, however ideally, performance will be substantially above the minimum threshold.
+The very highest levels of accuracy are not required as there are no serious health, or life or death implications. It would be useful for the shelter's planning and budgeting to have a good idea which types of animals are likely to be in the shelter long term, which types of animals they are likely to have trouble getting adopted and may need to put more effort into promoting, among other uses. So a reasonable level of accuracy above 75% minimum is still required for the model to be useful in that regard, and ideally the performance will be substantially above the minimum threshold.
 
 ### How does this model work?
 
 For a Decision Tree Model, the goal is to progressively split and separate samples with a more similar structure that will result in more pure subsets of data. The algorithm looks between all features for the highest impurity and splits the parent node into child nodes. The tree ends up with a series of branches (i.e. questions and answers) that eventually lead to a classification prediction representing a probability of a particular outcome, based on the series of represented criteria leading to it. 
 
-Random Forests can leverage the power of multiple Decision Trees, with each node working on a randomly generated subset of features to create individual outputs that are then combined to generate the final overall output. For a Random Forest model, the process described above of combining the output of multiple, individual Decision Tree models (weak learners) is called Ensemble Learning, i.e. combining the results of multiple models together (majority voting/averaging). 
+One reason a Random Forest might be a good alternative is that it can leverage the power of multiple Decision Trees, with each node working on a randomly generated subset of features to create individual outputs that are then combined to generate the final overall output. For a Random Forest model, the process described above of combining the output of multiple, individual Decision Tree models (weak learners) is called Ensemble Learning, i.e. combining the results of multiple models together (majority voting/averaging).
+
+ ### What Prelimninary data pre-processing and feature engineering needs to be performed?
+See the 'Data Exploration and Analysis Phases' section below for the full list of pre-processing steps for the database and machine learning model that were performed. 
+Many of the items in the dataset are categorical and these variables were encoded using OneHotEncoder. The target variable was defined for the model and also encoded, where Adoption = 1, and not-adopted (all other outcomes) = 0. To prepare the model, the data is scaled and an instance created. Next the model is then fit to the training data and the tree model plotted. When the model is run it makes predictions using the test data and calculates a confusion matrix, accuracy report, and classification report that is then reviewed. Depending on the result from the report, the team can then apply any changes before re-running another iteration of the model in order to attempt to improve the results, if necessary.
 
 
 ## Data Exploration and Analysis Phases
