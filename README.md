@@ -95,6 +95,11 @@ Random Forests can leverage the power of multiple Decision Trees, with each node
 Database: shelter_db
 Tables: raw_input_outcome, animal_type, animal_in_out
 
+### Entity Relationship Diagram (ERD)
+* [Database Design](/Resources/relativQuickDBD-export.pdf)
+* [ERD](/Resources/QuickDBD-export.png)
+
+
 **Database Creation and ETL Process Summary:**
 1. shelter_db database was created in PgAdmin
 2. A database connection was created with Pandas library to load the raw data into the SQL database
@@ -145,8 +150,31 @@ Note: the db password is protected in a "config.py" file.
 * Intake count by type of intake
 * Count by outcome type
 * Time in shelter by animal type
-* Count of intake by animal type
-* Age Filter
+* Intake Analysis - Condition, Age, Type, etc.
+* Age Analysis - Age distribution at intake, Age at Intake Vs time in shelter, etc.
+
+### A snapshot of our exploratory charts
+ <table>
+ <tr>   
+   <td align="center"> <b> Intake Vs Outcome Age </b> </td>
+   <td align="center"> <b> Timeperiod Analysis</b></td>
+  </tr> 
+  <tr>   
+    <td valign="top"> <img src="/Resources/Images/Outcome_By_Years.png" width="500" /> </td>
+    <td valign="top"> <img src="/Resources/Images/MonthandWeekdays.png" width="500" /> </td>
+  </tr>     
+</Table>
+
+ <table>
+ <tr>   
+   <td align="center"> <b> Categorical Analysis </b> </td>
+   <td align="center"> <b> Outcome Analysis</b></td>
+  </tr> 
+  <tr>   
+    <td valign="top"> <img src="/Resources/Images/Intake_Type_Heatmap.png" width="500" /> </td>
+    <td valign="top"> <img src="/Resources/Images/Adoption_Animal_Catplot.png" width="500" /> </td>
+  </tr>     
+</Table>
 
 ### Machine Learning Steps For Decision Tree Model
 * Encoded categorical variables
