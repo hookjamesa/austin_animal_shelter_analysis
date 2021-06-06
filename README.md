@@ -153,6 +153,18 @@ Note: the db password is protected in a "config.py" file.
 * Count of intake by animal type
 * Age Filter
 
+### A snapshot of our exploratory charts
+ <table>
+ <tr>   
+   <td align="center"> <b> Intake Vs Outcome Age </b> </td>
+   <td align="center"> <b> Timeperiod Analysis</b></td>
+  </tr> 
+  <tr>   
+    <td valign="top"> <img src="/Resources/Images/Outcome_By_Years.png" width="500" /> </td>
+    <td valign="top"> <img src="/Resources/Images/MonthandWeekdays.png" width="500" /> </td>
+  </tr>     
+</Table>
+
 ### Machine Learning Steps For Decision Tree Model
 * Encoded categorical variables
 * Defined target variable
