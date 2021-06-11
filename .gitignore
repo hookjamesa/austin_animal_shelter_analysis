@@ -140,6 +140,7 @@ config.py
 # Piecemeal program
 Segment2_Python_Code/
 Working_Copy/
+.ipynb_checkpoints/
 
 # Project Protocols
 Comm_Protocols.md
