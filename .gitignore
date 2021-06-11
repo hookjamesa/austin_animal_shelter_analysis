@@ -130,3 +130,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# .DS_Store
+.DS_Store
+
+# config
+config.py
+
+# Piecemeal program
+Segment2_Python_Code/
+Working_Copy/
+
+# Project Protocols
+Comm_Protocols.md
