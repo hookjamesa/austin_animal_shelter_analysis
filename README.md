@@ -201,12 +201,11 @@ Note: the db password is protected in a "config.py" file.
 
 * Google Presentation Link: [click here](https://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing)
 * Tableau Deashboard Link:  [Click here](https://public.tableau.com/app/profile/prathima.bandi/viz/Segment3_Data_Vizualization/Segment2StoryBoard)
-
-What is the story this dashboard tell you and what features are used:
-* Source: CSV file with the shwlter data
-* Tool: Tableau public
-* Feature: FIlters, Calculation fileds 
-* Intent of the dashbord: Learn your data and use the information to improve and refine your business operations
+* What is the story this dashboard tell you and what features are used:
+ * Source: CSV file with the shwlter data
+ * Tool: Tableau public
+ * Feature: FIlters, Calculation fileds 
+ * Intent of the dashbord: Learn your data and use the information to improve and refine your business operations
 * Story Line: 
   * **Dashboard 1 (Overview of Dashboard)** - Gives us the input data set overview with an interactive element to slice and dice the data by Animal Type and learn more about the condition of the animals coming into the shelter. Known your intake helps the business operations to be well equipped with saff and resources needed to help with shelter operations.
   * **Dashboard 2 (Intake Analysis)** - This dashboard is names as intake analysis but provides an overview of animal outtake. This dashboard brings in a toe up to ur ML model and is interactive.
