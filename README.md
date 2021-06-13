@@ -63,12 +63,13 @@ The data-set will be split into training and test data. The model will learn on 
 
 ### Which model did you choose and why?
 We chose to use a Decision Tree Classification as our initial model. As we are trying to predict whether an animal at a shelter gets adopted or not, this type of model is generally very suitable for solving classification problems such as this. However, often a single tree is not always sufficient for producing effective results, and while further iterations may be able to improve model performance, if the model is unable to achieve or only just meets the minimum target threshold another type of model could be tried.
+ 
 A Random Forest model might provide better results and could be considered as a alternative for future work. A Random Forest model leverages the power of multiple Decision Trees and does not rely on feature importance derived from a single tree. Due to its randomness it does not depend on any highly specific set of features and is able to generalize over the data in a superior way. On the downside, Random Forest models take longer to train and are a little more difficult to interpret than Decision Trees due to their "black box" nature, however the trade off is might be worth it for this study if it is able to produce better results.
 
 
 ### What is the model's accuracy?
 
-The very highest levels of accuracy are not required as there are no serious health, or life or death implications. It would be useful for the shelter's planning and budgeting to have a good idea which types of animals are likely to be in the shelter long term, which types of animals they are likely to have trouble getting adopted and may need to put more effort into promoting, among other uses. So a reasonable level of accuracy above 75% minimum is still required for the model to be useful in that regard, and ideally the performance will be substantially above the minimum threshold.
+The very highest levels of accuracy are not required as there are no serious health, or life or death implications. It would be useful for the shelter's planning and budgeting to have a good idea which types of animals are likely to be in the shelter long term, which types of animals they are likely to have trouble getting adopted and may need to put more effort into promoting, among other uses. So a reasonable level of accuracy above 75% minimum is still required for the model to be useful in that regard, and ideally the performance will be substantially above the minimum threshold. Our initial model shows an accuracy of 78%, which is acceptable per our criteria, but has room for further improvement.
 
 ### How does this model work?
 
