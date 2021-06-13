@@ -6,7 +6,7 @@
 
 # Austin Animal Shelter Analysis
 
-Analysis of over 80,000 animal adoption intake and outcome data entries for the Austin Animal Center to predict likelihood of adoption outcome
+This project contains an analysis of over 80,000 animal adoption intake and outcome data entries for the Austin Animal Center to predict the likelihood of an adoption outcome.
 
 ## Project Overview and Objective
 
