@@ -194,8 +194,8 @@ What is the story this dashboard tell you and what features are used:
 * Story Line: 
   * **Dashboard 1 (Overview of Dashboard)** - Gives us the input data set overview with an interactive element to slice and dice the data by Animal Type and learn more about the condition of the animals coming into the shelter. Known your intake helps the business operations to be well equipped with saff and resources needed to help with shelter operations.
   * **Dashboard 2 (Intake Analysis)** - This dashboard is names as intake analysis but provides an overview of animal outtake. This dashboard brings in a toe up to ur ML model and is interactive.
-  * **Dashboard 3 (Month and Weekday Analysis)** - This dashboard is view of intake and outcome by month and weekdays. Looking at this the business operations can plan for staff, Pet resources so the shelter can provide a customer friendly environment.
-  * **Dashboard 4 (Intake Vs Outcome Analysis)** - This dashboard provides you to determine which month is the busiest time in a year and even further can check by week days. 
+  * **Dashboard 3 (Month and Weekday Analysis)** - This dashboard provides you to determine which month is the busiest time in a year and even further can check by week days.
+  * **Dashboard 4 (Intake Vs Outcome Analysis)** - This dashboard is view of intake and outcome by month and weekdays. Looking at this the business operations can plan for staff, Pet resources so the shelter can provide a customer friendly environment.-  
 
 * **Consutions:**  The current dataset can be leveraged to show addiotnal operations insight but would need addiotnal pre-processing of data and would need enhacement to the input data capture process.
 
