@@ -59,7 +59,7 @@ A Random Forest model might provide better results and could be considered as a 
 
 ### How are you training your model?
 
-The data-set will be split into training and test data. The model will learn on training data that possess a pre-defined set of labels for input variables. The model will predict outcomes for the target variable using the test data. 
+The data-set will be split into training and test data. The model will learn on training data that possess a pre-defined set of labels for input variables. The model will predict outcomes for the target variable using the test data. The group chose to use type of animal, age, duration of stay, and timing of the stay as primary variables for influencing the adoption rate in our decision tree model. Future changes to the testing data can include breed once a more significant set of data regarding breeds is captured, and year data can compare popularity of breeds from the American Kennel Club and other organizations.
 
 ### Which model did you choose and why?
 We chose to use a Decision Tree Classification as our initial model. As we are trying to predict whether an animal at a shelter gets adopted or not, this type of model is generally very suitable for solving classification problems such as this. However, often a single tree is not always sufficient for producing effective results, and while further iterations may be able to improve model performance, if the model is unable to achieve or only just meets the minimum target threshold another type of model could be tried.
