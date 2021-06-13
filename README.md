@@ -212,4 +212,4 @@ Note: the db password is protected in a "config.py" file.
   * **Dashboard 3 (Month and Weekday Analysis)** - This dashboard provides you to determine which month is the busiest time in a year and even further can check by week days.
   * **Dashboard 4 (Intake Vs Outcome Analysis)** - This dashboard is view of intake and outcome by month and weekdays. Looking at this the business operations can plan for staff, Pet resources so the shelter can provide a customer friendly environment.-  
 
-* **Consutions:**  The current dataset can be leveraged to show addiotnal operations insight but would need addiotnal pre-processing of data and would need enhacement to the input data capture process.
+* **Conclution:**  The current dataset can be leveraged to show addiotnal operations insight but would need addiotnal pre-processing of data and would need enhacement to the input data capture process.
