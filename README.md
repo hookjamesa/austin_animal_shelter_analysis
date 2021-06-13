@@ -199,9 +199,9 @@ Note: the db password is protected in a "config.py" file.
 
 ## Dashboard
 
-Link to presentation containing dashboard storyboard plan/outline (6/6/2021): [click here](https://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing)
+* Google Presentation Link: [click here](https://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing)
 
-Link to our dashboard built using Tableau: [Click here](https://public.tableau.com/app/profile/prathima.bandi/viz/Segment3_Data_Vizualization/Segment2StoryBoard)
+Link to our **Tableau Dashboard**: [Click here](https://public.tableau.com/app/profile/prathima.bandi/viz/Segment3_Data_Vizualization/Segment2StoryBoard)
 
 What is the story this dashboard tell you and what features are used:
 * Source: CSV file with the shwlter data
