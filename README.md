@@ -192,4 +192,7 @@ What is the story this dashboard tell you and what features are used:
 * Feature: FIlters, Calculation fileds 
 * Intent of the dashbord: Learn your data and use the information to improve and refine your business operations
 * Story Line: 
+  * Dashboard 1 (Overview of Dashboard) - Gives us the input data set overview with an interactive element to slice and dice the data by Animal Type and learn more about the condition of the animals coming into the shelter. Known your intake helps the business operations to be well equipped with saff and resources needed to help with shelter operations.
+  * Dashboard 2 (Intake Analysis) - This dashboard is names as intake analysis but provides an overview of animal outtake. This dashboard brings in a toe up to ur ML model and is interactive.
+  * 
 
