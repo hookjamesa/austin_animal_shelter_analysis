@@ -172,7 +172,7 @@ Note: the db password is protected in a "config.py" file.
 * Encoded categorical variables
 * Defined target variable
 * Split the data into train and test datasets
-* Scaled the data
+* Scaled the dat
 * Created decision tree classifier instance
 * Fit the model
 * Plotted tree model
@@ -184,6 +184,12 @@ Note: the db password is protected in a "config.py" file.
 
 Link to presentation containing dashboard storyboard plan/outline (6/6/2021): [click here](https://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing)
 
-The final dashboard will be built using visualizations created using Tableau. Tableau is a visual analytics platform that is good for creating a range of visualizations that is user friendly and easily accessible for non-programmers. The Tableau file will have a searchable/scrollable table of the dataset, a dashboard with charts for key variable relationships, and individual tabs for each plot. 
+Link to our dashboard built using Tableau: [Click here](https://public.tableau.com/app/profile/prathima.bandi/viz/Segment3_Data_Vizualization/Segment2StoryBoard)
 
-One interactive element of the dashboard will be a drop-down/checkbox selection menu that will allow the user to search and select which criteria to display for each variable, or combination of variables. Tableau should have the functionality to update the display for an inset data table and for all visualizations on display that are linked to the menu. 
+What is the story this dashboard tell you and what features are used:
+* Source: CSV file with the shwlter data
+* Tool: Tableau public
+* Feature: FIlters, Calculation fileds 
+* Intent of the dashbord: Learn your data and use the information to improve and refine your business operations
+* Story Line: 
+
