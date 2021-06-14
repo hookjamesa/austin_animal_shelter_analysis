@@ -19,6 +19,7 @@ Analysis of the animal shelter data has the potential to uncover useful insights
 The team chose this particular topic as we are all animal lovers with pets of our own. With a large spike in the rates of pet adoptions as a result of the Covid-19 pandemic, animal shelters have been struggling to continue operations in the wake of social distancing measures. As coronavirus restrictions are lifted, animal shelters will need more help than ever and it is hoped that people viewing the results of this analysis might become inspired to get involved in the local animal welfare community in Austin.
 
 **Link to Google Slides project presentation: [click here](https://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing)**
+
 **Link to Dashboard:  [Click here](https://public.tableau.com/app/profile/prathima.bandi/viz/Segment3_Data_Vizualization/Segment2StoryBoard)**
 
 ### Data Source
