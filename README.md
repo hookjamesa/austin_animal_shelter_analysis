@@ -185,10 +185,17 @@ Note: the db password is protected in a "config.py" file.
 
 ## Dashboard
 
-Link to presentation containing dashboard storyboard plan/outline (6/6/2021): [click here](https://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing)
+* Google Presentation Link: [click here](https://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing)
+* Tableau Deashboard Link:  [Click here](https://public.tableau.com/app/profile/prathima.bandi/viz/Segment3_Data_Vizualization/Segment2StoryBoard)
+* What is the story this dashboard tell you and what features are used:
+ * Source: CSV file with the shwlter data
+ * Tool: Tableau public
+ * Feature: FIlters, Calculation fileds 
+ * Intent of the dashbord: Learn your data and use the information to improve and refine your business operations
+* Story Line: 
+  * **Dashboard 1 (Overview of Dashboard)** - Gives us the input data set overview with an interactive element to slice and dice the data by Animal Type and learn more about the condition of the animals coming into the shelter. Known your intake helps the business operations to be well equipped with saff and resources needed to help with shelter operations.
+  * **Dashboard 2 (Intake Analysis)** - This dashboard is names as intake analysis but provides an overview of animal outtake. This dashboard brings in a toe up to ur ML model and is interactive.
+  * **Dashboard 3 (Month and Weekday Analysis)** - This dashboard provides you to determine which month is the busiest time in a year and even further can check by week days.
+  * **Dashboard 4 (Intake Vs Outcome Analysis)** - This dashboard is view of intake and outcome by month and weekdays. Looking at this the business operations can plan for staff, Pet resources so the shelter can provide a customer friendly environment.-  
 
-Link to Dashboard:  [Click here](https://public.tableau.com/app/profile/prathima.bandi/viz/Segment3_Data_Vizualization/Segment2StoryBoard)
-
-The final dashboard will be built using visualizations created using Tableau. Tableau is a visual analytics platform that is good for creating a range of visualizations that is user friendly and easily accessible for non-programmers. The Tableau file will have a searchable/scrollable table of the dataset, a dashboard with charts for key variable relationships, and individual tabs for each plot. 
-
-One interactive element of the dashboard will be a drop-down/checkbox selection menu that will allow the user to search and select which criteria to display for each variable, or combination of variables. Tableau should have the functionality to update the display for an inset data table and for all visualizations on display that are linked to the menu. 
+* **Conclusion:**  The current dataset can be leveraged to show addiotnal operations insight but would need addiotnal pre-processing of data and would need enhacement to the input data capture process.
