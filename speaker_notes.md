@@ -23,6 +23,8 @@
 * (Major Point 3)
 
 
+Link to presentation: https://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing g=
+
 Presentation Plan/Outline:
 
 Presenter 1 - Jack
