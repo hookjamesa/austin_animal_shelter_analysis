@@ -6,7 +6,7 @@
 
 # Austin Animal Shelter Analysis
 
-Analysis of over 80,000 animal adoption intake and outcome data entries for the Austin Animal Center to predict likelihood of adoption outcome
+This project contains an analysis of over 80,000 animal adoption intake and outcome data entries for the Austin Animal Center to predict the likelihood of an adoption outcome.
 
 ## Project Overview and Objective
 
@@ -19,6 +19,8 @@ Analysis of the animal shelter data has the potential to uncover useful insights
 The team chose this particular topic as we are all animal lovers with pets of our own. With a large spike in the rates of pet adoptions as a result of the Covid-19 pandemic, animal shelters have been struggling to continue operations in the wake of social distancing measures. As coronavirus restrictions are lifted, animal shelters will need more help than ever and it is hoped that people viewing the results of this analysis might become inspired to get involved in the local animal welfare community in Austin.
 
 **Link to Google Slides project presentation: [click here](https://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing)**
+
+**Link to Dashboard:  [Click here](https://public.tableau.com/app/profile/prathima.bandi/viz/Segment3_Data_Vizualization/Segment2StoryBoard)**
 
 ### Data Source
 
@@ -59,16 +61,17 @@ A Random Forest model might provide better results and could be considered as a 
 
 ### How are you training your model?
 
-The data-set will be split into training and test data. The model will learn on training data that possess a pre-defined set of labels for input variables. The model will predict outcomes for the target variable using the test data. 
+The data-set will be split into training and test data. The model will learn on training data that possess a pre-defined set of labels for input variables. The model will predict outcomes for the target variable using the test data. The group chose to use type of animal, age, duration of stay, and timing of the stay as primary variables for influencing the adoption rate in our decision tree model. Future changes to the testing data can include breed once a more significant set of data regarding breeds is captured, and year data can compare popularity of breeds from the American Kennel Club and other organizations.
 
 ### Which model did you choose and why?
 We chose to use a Decision Tree Classification as our initial model. As we are trying to predict whether an animal at a shelter gets adopted or not, this type of model is generally very suitable for solving classification problems such as this. However, often a single tree is not always sufficient for producing effective results, and while further iterations may be able to improve model performance, if the model is unable to achieve or only just meets the minimum target threshold another type of model could be tried.
+ 
 A Random Forest model might provide better results and could be considered as a alternative for future work. A Random Forest model leverages the power of multiple Decision Trees and does not rely on feature importance derived from a single tree. Due to its randomness it does not depend on any highly specific set of features and is able to generalize over the data in a superior way. On the downside, Random Forest models take longer to train and are a little more difficult to interpret than Decision Trees due to their "black box" nature, however the trade off is might be worth it for this study if it is able to produce better results.
 
 
 ### What is the model's accuracy?
 
-The very highest levels of accuracy are not required as there are no serious health, or life or death implications. It would be useful for the shelter's planning and budgeting to have a good idea which types of animals are likely to be in the shelter long term, which types of animals they are likely to have trouble getting adopted and may need to put more effort into promoting, among other uses. So a reasonable level of accuracy above 75% minimum is still required for the model to be useful in that regard, and ideally the performance will be substantially above the minimum threshold.
+The very highest levels of accuracy are not required as there are no serious health, or life or death implications. It would be useful for the shelter's planning and budgeting to have a good idea which types of animals are likely to be in the shelter long term, which types of animals they are likely to have trouble getting adopted and may need to put more effort into promoting, among other uses. So a reasonable level of accuracy above 75% minimum is still required for the model to be useful in that regard, and ideally the performance will be substantially above the minimum threshold. Our initial model shows an accuracy of 78%, which is acceptable per our criteria, but has room for further improvement.
 
 ### How does this model work?
 
@@ -182,8 +185,17 @@ Note: the db password is protected in a "config.py" file.
 
 ## Dashboard
 
-Link to presentation containing dashboard storyboard plan/outline (6/6/2021): [click here](https://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing)
+* Google Presentation Link: [click here](https://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing)
+* Tableau Deashboard Link:  [Click here](https://public.tableau.com/app/profile/prathima.bandi/viz/Segment3_Data_Vizualization/Segment2StoryBoard)
+* What is the story this dashboard tell you and what features are used:
+ * Source: CSV file with the shwlter data
+ * Tool: Tableau public
+ * Feature: FIlters, Calculation fileds 
+ * Intent of the dashbord: Learn your data and use the information to improve and refine your business operations
+* Story Line: 
+  * **Dashboard 1 (Overview of Dashboard)** - Gives us the input data set overview with an interactive element to slice and dice the data by Animal Type and learn more about the condition of the animals coming into the shelter. Known your intake helps the business operations to be well equipped with saff and resources needed to help with shelter operations.
+  * **Dashboard 2 (Intake Analysis)** - This dashboard is names as intake analysis but provides an overview of animal outtake. This dashboard brings in a toe up to ur ML model and is interactive.
+  * **Dashboard 3 (Month and Weekday Analysis)** - This dashboard provides you to determine which month is the busiest time in a year and even further can check by week days.
+  * **Dashboard 4 (Intake Vs Outcome Analysis)** - This dashboard is view of intake and outcome by month and weekdays. Looking at this the business operations can plan for staff, Pet resources so the shelter can provide a customer friendly environment.-  
 
-The final dashboard will be built using visualizations created using Tableau. Tableau is a visual analytics platform that is good for creating a range of visualizations that is user friendly and easily accessible for non-programmers. The Tableau file will have a searchable/scrollable table of the dataset, a dashboard with charts for key variable relationships, and individual tabs for each plot. 
-
-One interactive element of the dashboard will be a drop-down/checkbox selection menu that will allow the user to search and select which criteria to display for each variable, or combination of variables. Tableau should have the functionality to update the display for an inset data table and for all visualizations on display that are linked to the menu. 
+* **Conclusion:**  The current dataset can be leveraged to show addiotnal operations insight but would need addiotnal pre-processing of data and would need enhacement to the input data capture process.
