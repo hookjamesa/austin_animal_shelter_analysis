@@ -1,4 +1,4 @@
-# Presentation Notes (Link: )
+# Presentation Notes (Link: ttps://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing)
 
 ## Section 1
 
@@ -71,8 +71,6 @@
 * Model outcome suggests that we can predict animal outcomes with some level of certainty. Dataset and simple decision tree model could be expanded on with additional data pre-processing and use of a Random Forest model.
 * Most animals rotate quickly through the shelter - they have 1-2 months maximum.
 * Customer behaviors are predictable as the shelter comes out of 2020, using this data to re-establish schedules, stakeholder needs, and customer needs.
-
-Link to presentation: https://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing g=
 
 Presentation Plan/Outline:
 
