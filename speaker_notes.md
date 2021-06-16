@@ -72,7 +72,7 @@
 * Most animals rotate quickly through the shelter - they have 1-2 months maximum.
 * Customer behaviors are predictable as the shelter comes out of 2020, using this data to re-establish schedules, stakeholder needs, and customer needs.
 
-Presentation Plan/Outline:
+Presentation Plan/Outline (change to consistency with final presentation):
 
 Presenter 1 - Jack
 1. Study Overview
