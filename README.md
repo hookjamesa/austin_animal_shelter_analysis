@@ -217,15 +217,19 @@ Presenter 1
 4. Dataset source
 
 **Presenter 2**
+
 Thank you, Jack and good evening, everyone. I will be giving you all an overview of the tools and the resources that our team used for this project and then I will be reviewing the database structure, ETL process and finally I will be wrapping up with an overview of our input data set used for our project. 
 
 **5. Tools and Resources**
+
 Starting off, the tools that we used are python was our primary language for ETL and machine learning modeling, Postgres from SQL database, Tableau for Interactive dashboard creation, GitHub as source repository. For communication Zoom and Slack were the main communication portals along with text messaging as needed.
 
 **6. Database Overview**
+
 Next let’s take a look at the database structure and ERD. “Shelter_db” is the database that we first created. Once the database was created using panda libraries, we extracted the raw dataset into our SQL database. Using SQL scripts and python features performed all needed transformation to create a normalized data structure. Animal_Type is our master table and Animal_in_out is our transaction table with many transformations. Transformation performed ( Dropping the master data columns from the transactional table, Converting date and time attributes to be able to use for duration analysis, dropping null values, using “get_dummies” panda feature converted the Outcome_type to binary value to use for our ML modeling, etc.) 
 
 **7. ETL Process Overview**
+
  Steps involved in our ETL (Extract, Transform and Load) process.
 •	Extracting the raw data and loading into SQL database
 •	Using SQL and Panda transformation functions, performed data normalization functions and created a normalized data structure. 
@@ -233,14 +237,18 @@ Next let’s take a look at the database structure and ERD. “Shelter_db” is 
 •	Finally, all the transformed datasets were loaded to a SQL database or on excel spreadsheet for using as input source for analysis.
 
 **8. Dataset Overview**
+
 To wrap up, out dataset that was used for analysis consists of 79,672 shelter records. Over 50% of the dataset consists of “Dog” and 37% was “Cats”. Based on our analysis we saw over 50% adoption rate.
 My teammate Eijah will provide a deeper insight to our dataset using our exploratory analysis charts.
 
+
 Presenter 3
+
 9. Animal Age analysis
 10. Monthly/Weekly Intake/Outcome Analysis
 11. Intake vs. Outcome Analysis
 Presenter 4
+
 12. Machine learning model creation process
 13. Machine learning model results
 14. Dashboard overview
