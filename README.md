@@ -204,3 +204,28 @@ Link to presentation containing dashboard storyboard plan/outline (6/6/2021): [c
 The final dashboard will be built using visualizations created using Tableau. Tableau is a visual analytics platform that is good for creating a range of visualizations that is user friendly and easily accessible for non-programmers. The Tableau file will have a searchable/scrollable table of the dataset, a dashboard with charts for key variable relationships, and individual tabs for each plot. 
 
 One interactive element of the dashboard will be a drop-down/checkbox selection menu that will allow the user to search and select which criteria to display for each variable, or combination of variables. Tableau should have the functionality to update the display for an inset data table and for all visualizations on display that are linked to the menu. 
+
+## Final Presentation
+Link to presentation: https://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing
+
+Presentation Plan/Outline:
+
+Presenter 1
+1. Study Overview
+2. Reasons for doing the study
+3. What questions we hope to answer
+4. Dataset source
+Presenter 2
+5. Tools and resources used
+6. ETL process
+7. Database creation process
+8. Dataset overview analysis
+Presenter 3
+9. Animal Age analysis
+10. Monthly/Weekly Intake/Outcome Analysis
+11. Intake vs. Outcome Analysis
+Presenter 4
+12. Machine learning model creation process
+13. Machine learning model results
+14. Dashboard overview
+15. Conclusions and recommendations
