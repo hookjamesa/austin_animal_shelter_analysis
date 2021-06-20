@@ -1,4 +1,4 @@
-# Presentation Notes (Link: )
+# Presentation Notes ([Link](https://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing))
 
 ## Section 1
 
@@ -22,26 +22,27 @@
 * (Major Point 2)
 * (Major Point 3)
 
-### Slide 5
-* (Major Point 1)
-* (Major Point 2)
-* (Major Point 3)
+### **5. Tools and Resources**
 
-### Slide 6
-* (Major Point 1)
-* (Major Point 2)
-* (Major Point 3)
+Starting off with the tools that we used are python was our primary language for ETL and machine learning modeling, Postgres from SQL database, Tableau for Interactive dashboard creation, GitHub as source repository. For communication Zoom and Slack were the main communication portals along with text messaging as needed.
 
-### Slide 7
-* (Major Point 1)
-* (Major Point 2)
-* (Major Point 3)
+### **6. Database Overview**
 
-### Slide 8
-* (Major Point 1)
-* (Major Point 2)
-* (Major Point 3)
-* 
+Next let’s take a look at the database structure and ERD. “Shelter_db” is the database that we first created. Once the database was created using panda libraries, we extracted the raw dataset into our SQL database. Using SQL scripts and python features performed all needed transformation to create a normalized data structure. Animal_Type is our master table and Animal_in_out is our transaction table. Transformation performed ( Dropping the master data columns from the transactional table, Converting date and time attributes to be able to use for duration analysis, dropping null values, using “get_dummies” panda feature converted the Outcome_type to binary value to use for our ML modeling, etc.) 
+
+### **7. ETL Process Overview**
+
+ Steps involved in our ETL (Extract, Transform and Load) process.
+•	Extracting the raw data and loading into SQL database
+•	Using SQL and Panda transformation functions, performed data normalization functions and created a normalized data structure. Ensured to build a Primary and forgeign key relationship between the 2 tables.
+•	Performed panda “get_dummie” transformation to convert categorical value into binary values that was used for out ML modeling. This outcome was merged to the original data frame after ensuring the original categorical column was dropped. This is a also part of transformation process in creating our datasets for ML and exploratory analysis.
+•	Finally, all the transformed datasets were loaded to a SQL database or on excel spreadsheet for using as input source for analysis.
+
+### **8. Dataset Overview**
+
+To wrap up, out dataset that was used for analysis consists of 79,672 shelter records. Over 50% of the dataset consists of “Dog” and 37% was “Cats”. Based on our analysis we saw over 50% adoption rate.
+My teammate Eijah will provide a deeper insight to our dataset using our exploratory analysis charts.
+
 ### Slide 9
 * (Major Point 1)
 * (Major Point 2)
@@ -70,31 +71,4 @@
 ### Slide 14
 * Model outcome suggests that we can predict animal outcomes with some level of certainty. Dataset and simple decision tree model could be expanded on with additional data pre-processing and use of a Random Forest model.
 * Most animals rotate quickly through the shelter - they have 1-2 months maximum.
-* Customer behaviors are predictable as the shelter comes out of 2020, using this data to re-establish schedules, stakeholder needs, and customer needs.
-
-Link to presentation: https://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing g=
-
-Presentation Plan/Outline:
-
-Presenter 1 - Jack
-1. Study Overview
-2. Reasons for doing the study
-3. What questions we hope to answer
-4. Dataset source
-
-Presenter 2 - Prathima
-5. Tools and resources used
-6. ETL process
-7. Database creation process
-8. Dataset overview analysis
-
-Presenter 3 - Eli
-9. Animal Age analysis
-10. Monthly/Weekly Intake/Outcome Analysis
-11. Intake vs. Outcome Analysis
-12. Dashboard overview
-
-Presenter 4 - James
-13. Machine learning model creation process
-14. Machine learning model results
-15. Conclusions and recommendations
+* Customer behaviors are predictable as the shelter comes out of 2020, using this data to re-establish schedules, stakeholder needs, and customer needs
