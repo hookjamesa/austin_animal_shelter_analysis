@@ -1,4 +1,4 @@
-# Presentation Notes (Link: ttps://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing)
+# Presentation Notes ([Link](https://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing))
 
 ## Section 1
 
@@ -22,26 +22,27 @@
 * (Major Point 2)
 * (Major Point 3)
 
-### Slide 5
-* (Major Point 1)
-* (Major Point 2)
-* (Major Point 3)
+### **5. Tools and Resources**
 
-### Slide 6
-* (Major Point 1)
-* (Major Point 2)
-* (Major Point 3)
+Starting off with the tools that we used are python was our primary language for ETL and machine learning modeling, Postgres from SQL database, Tableau for Interactive dashboard creation, GitHub as source repository. For communication Zoom and Slack were the main communication portals along with text messaging as needed.
 
-### Slide 7
-* (Major Point 1)
-* (Major Point 2)
-* (Major Point 3)
+### **6. Database Overview**
 
-### Slide 8
-* (Major Point 1)
-* (Major Point 2)
-* (Major Point 3)
-* 
+Next let’s take a look at the database structure and ERD. “Shelter_db” is the database that we first created. Once the database was created using panda libraries, we extracted the raw dataset into our SQL database. Using SQL scripts and python features performed all needed transformation to create a normalized data structure. Animal_Type is our master table and Animal_in_out is our transaction table. Transformation performed ( Dropping the master data columns from the transactional table, Converting date and time attributes to be able to use for duration analysis, dropping null values, using “get_dummies” panda feature converted the Outcome_type to binary value to use for our ML modeling, etc.) 
+
+### **7. ETL Process Overview**
+
+ Steps involved in our ETL (Extract, Transform and Load) process.
+•	Extracting the raw data and loading into SQL database
+•	Using SQL and Panda transformation functions, performed data normalization functions and created a normalized data structure. Ensured to build a Primary and forgeign key relationship between the 2 tables.
+•	Performed panda “get_dummie” transformation to convert categorical value into binary values that was used for out ML modeling. This outcome was merged to the original data frame after ensuring the original categorical column was dropped. This is a also part of transformation process in creating our datasets for ML and exploratory analysis.
+•	Finally, all the transformed datasets were loaded to a SQL database or on excel spreadsheet for using as input source for analysis.
+
+### **8. Dataset Overview**
+
+To wrap up, out dataset that was used for analysis consists of 79,672 shelter records. Over 50% of the dataset consists of “Dog” and 37% was “Cats”. Based on our analysis we saw over 50% adoption rate.
+My teammate Eijah will provide a deeper insight to our dataset using our exploratory analysis charts.
+
 ### Slide 9
 * (Major Point 1)
 * (Major Point 2)
