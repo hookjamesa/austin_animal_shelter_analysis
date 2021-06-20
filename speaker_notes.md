@@ -79,9 +79,7 @@ My teammate Eijah will provide a deeper insight to our dataset using our explora
 
 ### Slide 11
 
-* (Major Point 1)
-* (Major Point 2)
-* (Major Point 3)
+* Walk through the dashboard, showing interactive features
 
 ### Slide 12
 
