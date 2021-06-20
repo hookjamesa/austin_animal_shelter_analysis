@@ -1,12 +1,14 @@
 # Presentation Notes ([Link](https://docs.google.com/presentation/d/1iW0jeJ_2Y8J-VYC2PSrM4IDRTO_WTtGhs1lI-W8mLro/edit?usp=sharing))
 
 ### Slide 1
+
 * We will be presenting our analysis which focuses on the Austin Animal Shelter. AAC is one of the largest no kill shelters in the US caring for over 18000 animals per year, so its obviously a key institution for the local animal welfare community
 * For this study we analyzed over 80000 data entries for animal intake and adoption outcomes. 
 * Our goal is to try and predict whether an animal will be adopted or not and to explore which variables influence adoption the most
 
 
 ### Slide 2
+
 * In terms of specific questions that the team hopes to answer, our key questions is whether our machine learning model can be trained to effectively predict adoption or not. We chose a decision tree model as it is very effective at classification problems and the model works from the main questions, posing a series of options that are available and calculating the likelihood of occurrence, ultimately arriving at one of our two outcomes. 
 * If this model is not effective, we also wanted to think about what other types of model might provide better results
 * In addition to the ml model, we want to explore the main controlling factors, so we will be looking at intake and adoption trends for different days of the week and time of year, as well as the influence of factors such as animal age and time in shelter 
@@ -14,6 +16,7 @@
 
 
 ### Slide 3
+
 * In terms of specific questions that the team hopes to answer, our key questions is whether our machine learning model can be trained to effectively predict adoption or not. We chose a decision tree model as it is very effective at classification problems and the model works from the main questions, posing a series of options that are available and calculating the likelihood of occurrence, ultimately arriving at one of our two outcomes. 
 * If this model is not effective, we also wanted to think about what other types of model might provide better results
 * In addition to the ml model, we want to explore the main controlling factors, so we will be looking at intake and adoption trends for different days of the week and time of year, as well as the influence of factors such as animal age and time in shelter 
@@ -21,6 +24,7 @@
 
 
 ### Slide 4
+
 * The dataset was taken from kaggle, and the animals adoption data is made publicly available as part of the city of austin open data initiative
 * The dataset consisted of three tables, one for intake data, one for outcome data and a merged table for all the animal data which is what was used by the team for the study
 * The dataset ranges over 5 years from oct 2013 to 2018, consists of over 80000 entries with 12 columns of data, time and date data to hourly frequency
@@ -50,31 +54,49 @@ To wrap up, out dataset that was used for analysis consists of 79,672 shelter re
 My teammate Eijah will provide a deeper insight to our dataset using our exploratory analysis charts.
 
 ### Slide 9
-* (Major Point 1)
-* (Major Point 2)
-* (Major Point 3)
+
+* Key Points
+ * Age vs Time
+  * Animals 4 and under are far more likely to be adopted at quicker than other animals. 
+  * Older animals spend very little time in the shelter?
+  * Are the older animals the ones who are returned to owners?
+  * Very odd that ages 5-12 spend have the highest time spend in shelter overall
+  * Potential cause of this may be that people prefer younger animals and the older animals are more likely to get returned to owner due to attachment?
+* Age by Outcome
+ * We see that animals adopted are younger, and those returned to owners tend to be older
 
 ### Slide 10
-* (Major Point 1)
-* (Major Point 2)
-* (Major Point 3)
+
+* Heatmap Trends
+ * Dogs render the most activity during the beginning and end of the year
+ * Cats render the most activity during the middle of the year, in particular the summer months
+ * Why are animals that are not dogs and cats seeing the most activity during the month of March?
+* Bar Chart Trends
+ * Adoptions are most likely to occur on weekends, may be a planned element to this 
+ * Adoptions occur most in the summer months and December
+ * Animals returned to owners happen more uniformly, emotions cannot be measured
+ * Animal returned to owens happens more likely during holidays and the beginning of the year
 
 ### Slide 11
+
 * (Major Point 1)
 * (Major Point 2)
 * (Major Point 3)
 
 ### Slide 12
+
 * Target variable is set for 'Adoption' only
 * Train and test data sets as identified prior in the presentation
 * Minimal data scaling as the project used a decision tree model
 
 ### Slide 13
+
 * Due to the nature of people when they go to a shelter, we thought it best to have 2-3 decision points mimicking checklists people have as they go to an adoption center.
 * Decision tree set to 4 iterations.
 * 78% Accuracy, with improvement needed in recall rates. F1 score was over project established minimum as well.
 
 ### Slide 14
+
 * Model outcome suggests that we can predict animal outcomes with some level of certainty. Dataset and simple decision tree model could be expanded on with additional data pre-processing and use of a Random Forest model.
 * Most animals rotate quickly through the shelter - they have 1-2 months maximum.
 * Customer behaviors are predictable as the shelter comes out of 2020, using this data to re-establish schedules, stakeholder needs, and customer needs
