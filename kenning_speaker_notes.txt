@@ -1,0 +1,28 @@
+Good evening everyone
+We will be presenting our analysis which focuses on the Austin Animal Shelter. AAC is one of the largest no kill shelters in the US caring for over 18000 animals per year, so its obviously a key institution for the local animal welfare community
+For this study we analyzed over 80000 data entries for animal intake and adoption outcomes. 
+Our goal is to try and predict whether an animal will be adopted or not and to explore which variables influence adoption the most
+Our team consists of Prathima Bandi, Elijah Belizor, James Hook, and Jack Kenning
+
+
+
+So, why analyze animal adoptions data - what is the purpose of this analysis?
+Any useful insights gained might be used to help improve the welfare of animals in the area, and finding could even potentially be applied to other regions
+Identify which types of animals might need additional support while they are at the shelter and help prevent negative outcomes for what are identified as some of the most potentially high risk animals
+A lot of these analyses could be used for planning purposes, its important for a shelter to have an idea how long particular types of animals will be in the shelter for food and lodging
+Finally, as a team, we are all animal lovers - James has a particularly adorable Corgi, and we noticed that animal shelters have been struggling to operate due to social distancing measures over the past year and are low on manpower now things are opening back up again. We hope that by performing this analysis and sharing the results of this study we can help inspire people to volunteer in their local animal welfare community
+
+
+In terms of specific questions that the team hopes to answer, our key questions is whether our machine learning model can be trained to effectively predict adoption or not. We chose a decision tree model as it is very effective at classification problems and the model works from the main questions, posing a series of options that are available and calculating the likelihood of occurrence, ultimately arriving at one of our two outcomes. 
+If this model is not effective, we also wanted to think about what other types of model might provide better results
+In addition to the ml model, we want to explore the main controlling factors, so we will be looking at intake and adoption trends for different days of the week and time of year, as well as the influence of factors such as animal age and time in shelter 
+Finally, we want to consider what other analyses we could perform in the future and what could be changed or done differently to improve the study
+
+
+The dataset was taken from kaggle, and the animals adoption data is made publicly available as part of the city of austin open data initiative
+The dataset consisted of three tables, one for intake data, one for outcome data and a merged table for all the animal data which is what was used by the team for the study
+The dataset ranges over 5 years from oct 2013 to 2018, consists of over 80000 entries with 12 columns of data, time and date data to hourly frequency
+Its important to note that some animals enter and exit the shelter multiple times so have more than one entry which needs to be addressed in the ETL stage
+Links to the dataset and to AODI can be found at the bottom of the slide
+
+
