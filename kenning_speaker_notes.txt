@@ -5,7 +5,6 @@ Our goal is to try and predict whether an animal will be adopted or not and to e
 Our team consists of Prathima Bandi, Elijah Belizor, James Hook, and Jack Kenning
 
 
-
 So, why analyze animal adoptions data - what is the purpose of this analysis?
 Any useful insights gained might be used to help improve the welfare of animals in the area, and finding could even potentially be applied to other regions
 Identify which types of animals might need additional support while they are at the shelter and help prevent negative outcomes for what are identified as some of the most potentially high risk animals
